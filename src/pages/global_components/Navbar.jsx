@@ -1,7 +1,8 @@
 import React from 'react'
 import { useState } from 'react';
+import { Link } from 'react-router-dom'
 
-const Navbar_Testing = () => {
+const Navbar = () => {
     const [isToggle, setToggle] = useState(false);
 
     const handleToggle = () => {
@@ -12,15 +13,15 @@ const Navbar_Testing = () => {
         <nav>
             <ul>
                 <div className="logo_container">
-                    <a href="#"><img src="/img/logo/logo.png"></img></a>
+                    <Link to="/"><img src="/img/logo/logo.png"></img></Link>
                 </div>
-                <li className='menu_main'><a href="">home</a></li>
+                <li className='menu_main'><Link to="/">home</Link></li>
                 <li className='menu_main'>
-                    <a href="">wellington</a>
+                    <Link to="/wellington_about">wellington</Link>
                     <div className="menu_sub">
                         <ul>
-                            <li><a href="">about</a></li>
-                            <li><a href="">attractions</a></li>
+                            <li><Link to="/wellington_about">about</Link></li>
+                            <li><Link to="/wellington_attractions">attractions</Link></li>
                             <li><a href="">food</a></li>
                             <li><a href="">accommodation</a></li>
                             <li><a href="">transpportaton</a></li>
@@ -31,8 +32,8 @@ const Navbar_Testing = () => {
                     <a href="">prague</a>
                     <div className="menu_sub">
                         <ul>
-                            <li><a href="">about</a></li>
-                            <li><a href="">attractions</a></li>
+                            <li><Link to="/prague_about">about</Link></li>
+                            <li><Link to="/prague_attractions">attractions</Link></li>
                             <li><a href="">food</a></li>
                             <li><a href="">accommodation</a></li>
                             <li><a href="">transpportaton</a></li>
@@ -43,8 +44,8 @@ const Navbar_Testing = () => {
                     <a href="">cusco</a>
                     <div className="menu_sub">
                         <ul>
-                            <li><a href="">about</a></li>
-                            <li><a href="">attractions</a></li>
+                            <li><Link to="/cusco_about">about</Link></li>
+                            <li><Link to="/cusco_attractions">attractions</Link></li>
                             <li><a href="">food</a></li>
                             <li><a href="">accommodation</a></li>
                             <li><a href="">transpportaton</a></li>
@@ -55,8 +56,8 @@ const Navbar_Testing = () => {
                     <a href="">arusha</a>
                     <div className="menu_sub">
                         <ul>
-                            <li><a href="">about</a></li>
-                            <li><a href="">attractions</a></li>
+                            <li><Link to="/arusha_about">about</Link></li>
+                            <li><Link to="/arusha_attractions">attractions</Link></li>
                             <li><a href="">food</a></li>
                             <li><a href="">accommodation</a></li>
                             <li><a href="">transpportaton</a></li>
@@ -83,13 +84,13 @@ const Navbar_Testing = () => {
                     </div>
                     <div className={isToggle ? "mobile_menu_part active" : "mobile_menu_part"}>
                         <ul className="mobile_menu_list">
-                            <li className="mobile_menu_list_item"><a href="">home</a></li>
+                            <li className="mobile_menu_list_item"><Link to="/">home</Link></li>
                             <li className="mobile_menu_list_item">
                                 <a href="">wellington</a>
                                 <div className="menu_sub mobile_sub">
                                     <ul>
-                                        <li><a href="">about</a></li>
-                                        <li><a href="">attractions</a></li>
+                                        <li><Link to="/wellington_about">about</Link></li>
+                                        <li><Link to="/wellington_attractions">attractions</Link></li>
                                         <li><a href="">food</a></li>
                                         <li><a href="">accommodation</a></li>
                                         <li><a href="">transpportaton</a></li>
@@ -100,8 +101,8 @@ const Navbar_Testing = () => {
                                 <a href="">prague</a>
                                 <div className="menu_sub mobile_sub">
                                     <ul>
-                                        <li><a href="">about</a></li>
-                                        <li><a href="">attractions</a></li>
+                                        <li><Link to="/prague_about">about</Link></li>
+                                        <li><Link to="/prague_attractions">attractions</Link></li>
                                         <li><a href="">food</a></li>
                                         <li><a href="">accommodation</a></li>
                                         <li><a href="">transpportaton</a></li>
@@ -112,8 +113,8 @@ const Navbar_Testing = () => {
                                 <a href="">cusco</a>
                                 <div className="menu_sub mobile_sub">
                                     <ul>
-                                        <li><a href="">about</a></li>
-                                        <li><a href="">attractions</a></li>
+                                        <li><Link to="/cusco_about">about</Link></li>
+                                        <li><Link to="/cusco_attractions">attractions</Link></li>
                                         <li><a href="">food</a></li>
                                         <li><a href="">accommodation</a></li>
                                         <li><a href="">transpportaton</a></li>
@@ -124,8 +125,8 @@ const Navbar_Testing = () => {
                                 <a href="">arusha</a>
                                 <div className="menu_sub mobile_sub">
                                     <ul>
-                                        <li><a href="">about</a></li>
-                                        <li><a href="">attractions</a></li>
+                                        <li><Link to="/arusha_about">about</Link></li>
+                                        <li><Link to="/arusha_attractions">attractions</Link></li>
                                         <li><a href="">food</a></li>
                                         <li><a href="">accommodation</a></li>
                                         <li><a href="">transpportaton</a></li>
@@ -141,4 +142,4 @@ const Navbar_Testing = () => {
     );
 }
 
-export default Navbar_Testing
+export default Navbar

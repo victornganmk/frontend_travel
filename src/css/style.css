@@ -30,13 +30,14 @@
     --radius: 0.5rem;
     --light-layer: 0.3;
     --dark-layer: 0.5;
-    --transition: all 0.5s linear;
+    --transition: all 0.2s linear;
 }
 
 html, body {
     padding: 0;
     margin: 0;
     font-family: "Signika Negative", sans-serif;
+    line-height: 1.8;
 }
 
 html {
@@ -57,12 +58,13 @@ img {
 
 h1, h2, h3, h4 {
     text-transform: uppercase;
-    line-height: 1.2;
     color: var(--primary-2);
+    font-weight: 700;
 }
 
 h1 {
     font-size: 4rem;
+    letter-spacing: 5px;
 }
 
 h2 {
@@ -79,7 +81,7 @@ p {
 
 
 
-
+/* -------------------------- navbar -----------------------------------------------*/
 nav {
     background: var(--secondary-9);   
     box-shadow: 0 0 15px 0 rgba(0,0,0,.10);
@@ -273,6 +275,7 @@ nav {
 
 }
 
+/* -------------------------- home ------------------------------------------------ */
 .hero {
     background: url(/img/home/home_background.avif) center/cover no-repeat;
     position: relative;
@@ -334,7 +337,15 @@ nav {
         width: 40%;
         padding: 20px;
         h2 {
-            margin-top: 150px;
+            margin-top: 20px;
+        }
+        p {
+            font-size: 1.1rem;
+        }
+        p::first-letter {
+            color: var(--secondary-5);
+            font-size: 1.8rem;
+            font-weight: 700;
         }
     }
     .image {
@@ -372,11 +383,111 @@ nav {
             .card:nth-child(odd) {
                 margin-top: -30px;
             }
+            .card:hover {
+                transform: scale(1.03);
+                transition: var(--transition);
+            }
         }
     }
 }
 
+/* --------------------------wellington -------------------------------------------- */
 
+.wellington_about,
+.prague_about,
+.cusco_about,
+.arusha_about {
+    background: var(--primary-10);
+    padding-top: 30px;
+    
+    h1 {
+        text-align: center;
+    }
+    .card_container {
+        width: 90%;
+        margin: 0 auto;
+        .card {
+            width: 90%;
+            margin: 30px auto;
+            padding: 20px;
+            border: 1px solid var(--secondary-3);
+            h2 {
+                border-top: 1px solid var(--secondary-3);
+                padding-top: 20px;
+                margin-top: 20px;
+                font-size: 2.5rem;
+            }
+            
+            p {
+                font-size: 1.1rem;
+            }
+
+            p::first-letter {
+                color: var(--secondary-5);
+                font-size: 1.8rem;
+                font-weight: 700;
+            }
+        }
+    }
+
+}
+
+.wellington_attractions,
+.prague_attractions,
+.cusco_attractions,
+.arusha_attractions {
+    background: var(--primary-10);
+    padding: 50px 0;
+    
+    h1 {
+        width: 90%;
+        margin: 20px auto 60px;
+        text-align: center;
+        font-size: 2.5rem;
+        span {
+            padding: 10px;
+            border: 1px solid var(--primary-2);
+        }
+        
+        span:nth-child(even) {
+            background: var(--primary-2);
+            color: var(--primary-white);
+        }
+    }
+    .card_container {
+        width: 90%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        gap: 30px;
+        .card {
+            border-radius: 20px;
+            overflow: hidden;
+            .info {
+                padding: 10px;
+                h2 {
+                    margin-top: 10px;
+                    font-size: 1.5rem;
+                    height: 4rem;
+                }
+                p {
+                    padding: 5px;
+                    border: 1px dashed var(--secondary-5);
+                    border-radius: 10px;
+                    i {
+                        color: var(--secondary-3);
+                    }
+                }
+                p::first-letter {
+                    color: var(--secondary-5);
+                }
+            }
+            
+
+        }
+    }
+}
 
 
 

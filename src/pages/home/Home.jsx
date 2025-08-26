@@ -1,10 +1,9 @@
 import React from 'react'
-import Navbar_Testing from '../global_components/Navbar_Testing'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
     return (
         <>
-            <Navbar_Testing />
             <main className="hero" id="home">
                 <div className="container">
                     <h1>worldwide year trip</h1>
@@ -19,34 +18,34 @@ const Home = () => {
                 </article>
                 <div className="image">
                     <div className="card_container">
-                        <div className="card">
+                        <Link className="card" to="/wellington_about">
                             <h3>Wellington/ New Zealand</h3>
                             <div className="card-image">
                                 <img src="/img/home/home_card_image_01.avif" alt="" />
                                 <p>Feb</p>
                             </div>
-                        </div>
-                        <div className="card">
+                        </Link>
+                        <Link className="card" to="/prague_about">
                             <h3>Prague/ Czech Republic</h3>
                             <div className="card-image">
                                 <img src="/img/home/home_card_image_02.avif" alt="" />
                                 <p>Apr</p>
                             </div>
-                        </div>
-                        <div className="card">
+                        </Link>
+                        <Link className="card" to="/cusco_about">
                             <h3>Cusco/ Peru</h3>
                             <div className="card-image">
                                 <img src="/img/home/home_card_image_03.avif" alt="" />
                                 <p>Jun</p>
                             </div>
-                        </div>
-                        <div className="card">
+                        </Link>
+                        <Link className="card" to="/arusha_about">
                             <h3>Arusha/ Tanzania</h3>
                             <div className="card-image">
                                 <img src="/img/home/home_card_image_04.avif" alt="" />
                                 <p>Aug</p>
                             </div>
-                        </div>
+                        </Link>
                     </div>
                 </div>
             </section>
