@@ -58,20 +58,30 @@ img {
 h1, h2, h3, h4 {
     text-transform: uppercase;
     line-height: 1.2;
+    color: var(--primary-2);
 }
 
 h1 {
     font-size: 4rem;
 }
 
-p {
+h2 {
+    font-size: 3.5rem;
+}
 
+h3 {
+    font-size: 3rem;
+}
+
+p {
+    color: var(--primary-1);
 }
 
 
 
+
 nav {
-    background: #fff;   
+    background: var(--secondary-9);   
     box-shadow: 0 0 15px 0 rgba(0,0,0,.10);
     padding: 0;
 
@@ -125,7 +135,7 @@ nav {
             }
             .menu_sub {
                 display: block;
-                background: var(--primary-9);
+                background: var(--secondary-10);
                 ul {
                     width: 70%;
                     margin: 0 auto;
@@ -288,6 +298,22 @@ nav {
         height: 100vh;
         position: relative;
     }
+
+    .btn {
+        color: var(--primary-white);
+        padding: 1rem 2rem;
+        background: var(--primary-5);
+        border: 1px solid var(--primary-white);
+        border-radius: var(--radius);
+        cursor: pointer;
+        opacity: 0.6;
+        text-transform: uppercase;
+    }
+
+    .btn:hover {
+        opacity: 0.7;
+        background: var(--primary-3);
+    }
 }
 
 .hero::before {
@@ -300,20 +326,54 @@ nav {
     background: rgba(0,0,0,var(--light-layer));
 }
 
-.hero .btn {
-    color: var(--primary-white);
-    padding: 1rem 2rem;
-    background: var(--primary-5);
-    border: 1px solid var(--primary-white);
-    border-radius: var(--radius);
-    cursor: pointer;
-    opacity: 0.6;
-    text-transform: uppercase;
-}
-
-.hero .btn:hover {
-    opacity: 0.7;
-    background: var(--primary-3);
+.home_about {
+    display: flex;
+    flex-direction: row;
+    background: var(--secondary-9);
+    article {
+        width: 40%;
+        padding: 20px;
+        h2 {
+            margin-top: 150px;
+        }
+    }
+    .image {
+        width: 60%;
+        padding: 70px 20px;
+        .card_container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            align-items: start;
+            gap: 16px;
+            .card {
+                overflow: hidden;
+                border-radius: 30px;
+                h3 {
+                    background: var(--primary-8);
+                    font-size: 1.5rem;
+                    margin-bottom: 0;
+                    text-align: center;
+                    text-transform: capitalize;
+                }
+                .card-image {
+                    position: relative;
+                    p {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        background: var(--primary-1);
+                        color: var(--secondary-7);
+                        padding: 5px 20px;
+                        font-size: 2rem;
+                    }
+                }
+                
+            }
+            .card:nth-child(odd) {
+                margin-top: -30px;
+            }
+        }
+    }
 }
 
 

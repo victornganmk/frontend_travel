@@ -40,7 +40,7 @@ const Navbar_Testing = () => {
                     </div>
                 </li>
                 <li className='menu_main'>
-                    <a href="">arusha</a>
+                    <a href="">cusco</a>
                     <div className="menu_sub">
                         <ul>
                             <li><a href="">about</a></li>
@@ -52,7 +52,7 @@ const Navbar_Testing = () => {
                     </div>
                 </li>
                 <li className='menu_main'>
-                    <a href="">cusco</a>
+                    <a href="">arusha</a>
                     <div className="menu_sub">
                         <ul>
                             <li><a href="">about</a></li>
@@ -109,7 +109,7 @@ const Navbar_Testing = () => {
                                 </div>
                             </li>
                             <li className="mobile_menu_list_item">
-                                <a href="">arusha</a>
+                                <a href="">cusco</a>
                                 <div className="menu_sub mobile_sub">
                                     <ul>
                                         <li><a href="">about</a></li>
@@ -121,7 +121,7 @@ const Navbar_Testing = () => {
                                 </div>
                             </li>
                             <li className="mobile_menu_list_item">
-                                <a href="">cusco</a>
+                                <a href="">arusha</a>
                                 <div className="menu_sub mobile_sub">
                                     <ul>
                                         <li><a href="">about</a></li>
