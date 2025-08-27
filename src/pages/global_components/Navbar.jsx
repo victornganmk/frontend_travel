@@ -22,8 +22,8 @@ const Navbar = () => {
                         <ul>
                             <li><Link to="/wellington_about">about</Link></li>
                             <li><Link to="/wellington_attractions">attractions</Link></li>
-                            <li><a href="">food</a></li>
-                            <li><a href="">accommodation</a></li>
+                            <li><Link to="/wellington_food">food</Link></li>
+                            <li><Link to="/wellington_accommodation">accommodation</Link></li>
                             <li><a href="">transpportaton</a></li>
                         </ul>
                     </div>
@@ -34,8 +34,8 @@ const Navbar = () => {
                         <ul>
                             <li><Link to="/prague_about">about</Link></li>
                             <li><Link to="/prague_attractions">attractions</Link></li>
-                            <li><a href="">food</a></li>
-                            <li><a href="">accommodation</a></li>
+                            <li><Link to="/prague_food">food</Link></li>
+                            <li><Link to="/prague_accommodation">accommodation</Link></li>
                             <li><a href="">transpportaton</a></li>
                         </ul>
                     </div>
@@ -46,8 +46,8 @@ const Navbar = () => {
                         <ul>
                             <li><Link to="/cusco_about">about</Link></li>
                             <li><Link to="/cusco_attractions">attractions</Link></li>
-                            <li><a href="">food</a></li>
-                            <li><a href="">accommodation</a></li>
+                            <li><Link to="/cusco_food">food</Link></li>
+                            <li><Link to="/cusco_accommodation">accommodation</Link></li>
                             <li><a href="">transpportaton</a></li>
                         </ul>
                     </div>
@@ -58,8 +58,8 @@ const Navbar = () => {
                         <ul>
                             <li><Link to="/arusha_about">about</Link></li>
                             <li><Link to="/arusha_attractions">attractions</Link></li>
-                            <li><a href="">food</a></li>
-                            <li><a href="">accommodation</a></li>
+                            <li><Link to="/arusha_food">food</Link></li>
+                            <li><Link to="/arusha_accommodation">accommodation</Link></li>
                             <li><a href="">transpportaton</a></li>
                         </ul>
                     </div>
@@ -91,8 +91,8 @@ const Navbar = () => {
                                     <ul>
                                         <li><Link to="/wellington_about">about</Link></li>
                                         <li><Link to="/wellington_attractions">attractions</Link></li>
-                                        <li><a href="">food</a></li>
-                                        <li><a href="">accommodation</a></li>
+                                        <li><Link to="/wellington_food">food</Link></li>
+                                        <li><Link to="/wellington_accommodation">accommodation</Link></li>
                                         <li><a href="">transpportaton</a></li>
                                     </ul>
                                 </div>
@@ -103,8 +103,8 @@ const Navbar = () => {
                                     <ul>
                                         <li><Link to="/prague_about">about</Link></li>
                                         <li><Link to="/prague_attractions">attractions</Link></li>
-                                        <li><a href="">food</a></li>
-                                        <li><a href="">accommodation</a></li>
+                                        <li><Link to="/prague_food">food</Link></li>
+                                        <li><Link to="/prague_accommodation">accommodation</Link></li>
                                         <li><a href="">transpportaton</a></li>
                                     </ul>
                                 </div>
@@ -115,8 +115,8 @@ const Navbar = () => {
                                     <ul>
                                         <li><Link to="/cusco_about">about</Link></li>
                                         <li><Link to="/cusco_attractions">attractions</Link></li>
-                                        <li><a href="">food</a></li>
-                                        <li><a href="">accommodation</a></li>
+                                        <li><Link to="/cusco_food">food</Link></li>
+                                        <li><Link to="/cusco_accommodation">accommodation</Link></li>
                                         <li><a href="">transpportaton</a></li>
                                     </ul>
                                 </div>
@@ -127,8 +127,8 @@ const Navbar = () => {
                                     <ul>
                                         <li><Link to="/arusha_about">about</Link></li>
                                         <li><Link to="/arusha_attractions">attractions</Link></li>
-                                        <li><a href="">food</a></li>
-                                        <li><a href="">accommodation</a></li>
+                                        <li><Link to="/arusha_food">food</Link></li>
+                                        <li><Link to="/arusha_accommodation">accommodation</Link></li>
                                         <li><a href="">transpportaton</a></li>
                                     </ul>
                                 </div>
