@@ -83,6 +83,11 @@ p {
 
 /* -------------------------- navbar -----------------------------------------------*/
 nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
     background: var(--secondary-9);   
     box-shadow: 0 0 15px 0 rgba(0,0,0,.10);
     padding: 0;
@@ -111,7 +116,7 @@ nav {
                 display: inline-block;
                 border-radius: 20px;
                 a {
-                    color: #444;
+                    color: var(--primary-2);
                     display: block;
                     padding: 0.75rem 0.5rem;   
                 }
@@ -127,6 +132,7 @@ nav {
                         text-transform: capitalize;
                         a {
                             padding: 5px 15px;
+                            /* height: 40px; */
                         }
                     }
                 }
@@ -146,8 +152,11 @@ nav {
                     li {
                     display: block;
                     }
+                    li:hover {
+                        background: var(--primary-4);
+                    }
                     a {
-                        padding: 0;
+                        padding: 10px 0;
                         color: #444;
                     }
                     a:hover {
@@ -189,21 +198,25 @@ nav {
             cursor: pointer;
         }
         .mobile_menu_part {
+            display: none;
+            overflow: hidden;
+            max-height: 0;
             z-index: 2;
             position: absolute;
             top: 50px;
-            bottom: 0;
             left: 0;
             width: 100%;
-            height: 100vh;
+            background: var(--secondary-9);  
             text-align: center;
-            transition: var(--transition);
-            transform: translateX(100%);
-            background: #fff;
+            transition: max-height 0.4s ease-in-out, opacity 0.3s ease-in-out;
+            transform: translateY(-100%);
+            opacity: 0;
+            
             .mobile_menu_list {
                 display: flex;
                 flex-direction: column;
-                margin-top: 50px;
+                /* margin-top: 20px; */
+                padding: 20px 0 50px;
                 .mobile_menu_list_item {
                     display: block;
                     width: 100%;
@@ -231,8 +244,9 @@ nav {
 
         .mobile_menu_part.active {
             display: block;
-            transform: translateX(0);
-            li:hover {
+            transform: translateY(0);
+            max-height: 500px;
+            opacity: 1;
                 a {
                     color: #fff;
                     padding: 10px 0 10px 10px;
@@ -254,7 +268,12 @@ nav {
                         }
                     }
                 }
-            }
+        }
+        .mobile_sub {
+            display: none;
+        }
+        .mobile_sub.active {
+            display: block;
         }
     }
 }
@@ -268,21 +287,148 @@ nav {
             .icon_container {
                 display: none;
             }
-
+            li .menu_sub {
+                display: none !important;
+            }
+            li .menu_sub.active {
+                display: block !important;
+            }
             .mobile_menu {
                 display: block;
+                .mobile_home {
+                    color: var(--primary-2) !important;
+                }
+                .mobile_home:hover {
+                    color: var(--primary-white) !important;
+                }
+                button {
+                    display: block;
+                    width: 100%;
+                    text-align: left;
+                    padding-left: 0;
+                    text-transform: uppercase;
+                    color: var(--primary-2);
+                    background: var(--secondary-9);
+                    font-size: 1.2rem;
+                    border: none;
+                }
+                button:hover {
+                    color: var(--primary-white);
+                    background: var(--primary-2);
+                }
             }
         }
     }
 
 }
 
+/* ---------------------------footer-------------------------------------------------- */
+footer {
+    width: 100%;
+    background: var(--secondary-8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    .footer_menu_container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: start;
+            h2 {
+                text-transform: uppercase;
+                font-size: 1.8rem;
+                color: var(--primary-2);
+                font-weight: 700;
+                border-bottom: 1px solid var(--primary-2);
+                padding-bottom: 10px;
+                margin-bottom: 15px;
+            }
+            li {
+                a {
+                    text-transform: capitalize;
+                    font-size: 1.2rem;
+                    color: var(--primary-4)
+                }
+            }
+            li:hover {
+                background: var(--primary-2);
+                a {
+                    color: var(--primary-white);
+                }
+                
+            }
+    }
+    .footer_icon_container {
+        text-align: center;
+        .icon_list {
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            .icon_item {
+                margin: 20px;
+                a .fa-brands{
+                    font-size: 2rem;
+                    color: var(--primary-4);
+                    width: 50px;
+                }
+                
+            }
+        }
+        
+    }
+    p {
+        color: var(--primary-2);
+        font-size: 1rem;
+    }
+
+}
+@media (min-width: 0px) and (max-width: 768px) {
+    footer {
+        width: 100%;
+
+        .footer_menu_container {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h2 {
+                font-size: 1.6rem;
+            }
+            li {
+                a {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+        .footer_icon_container {
+
+            .icon_list {
+                .icon_item {
+                    a .fa-brands{
+                        font-size: 1.6rem;
+                    }
+                }
+            }
+            
+        }
+        p {
+            color: var(--primary-2);
+            font-size: 1.1rem;
+        }
+
+    }
+}
+
+
 /* -------------------------- home ------------------------------------------------ */
 .hero {
     background: url(/img/home/home_background.avif) center/cover no-repeat;
     position: relative;
     text-align: left;
-    margin-top: 50px auto 0;
+    margin: 0 auto;
+    padding-top: 50px;
     h1 {
         color: var(--primary-white);
         margin: 80px 0 20px;
@@ -395,21 +541,79 @@ nav {
     }
 }
 
-/* --------------------------wellington -------------------------------------------- */
+@media (min-width: 0px) and (max-width: 768px) {
+    .hero {
+        h1 {
+            margin: 50px 0 20px;
+            font-size: 3rem;
+        }
+        .container {
+            align-items: start;
+            justify-content: center;
+        }
+    }
+    .home_about {
+        flex-direction: column;
+        article {
+            width: 100%;
+        }
+        .image {
+            width: 100%;
+            .card_container {
+                grid-template-columns: repeat(1, 1fr);
+                align-items: center;
+                .card:nth-child(odd) {
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+}
+/* -------------------------- about of cities -------------------------------------------- */
 
 .wellington_about,
 .prague_about,
 .cusco_about,
 .arusha_about {
     background: var(--primary-10);
-    padding-top: 30px;
+    padding: 50px 0;
+    margin: 0 auto;
+
     
     h1 {
+        width: 90%;
+        margin: 60px auto;
         text-align: center;
+        font-size: 2.5rem;
+        span {
+            padding: 10px;
+            border: 1px solid var(--secondary-3);
+        }
+        
+        span:nth-child(even) {
+            background: var(--secondary-3);
+            color: var(--primary-white);
+        }
     }
+
     .card_container {
         width: 90%;
         margin: 0 auto;
+        .video_container {
+            position: relative;
+            width: 90%;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio (9 / 16 = 0.5625) */
+            height: 0;
+            overflow: hidden;
+            margin: 30px auto;
+            iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+        }
         .card {
             width: 90%;
             margin: 30px auto;
@@ -436,6 +640,27 @@ nav {
 
 }
 
+@media (min-width: 0px) and (max-width: 768px) {
+    .wellington_about {
+        h1 {
+            font-size: 1.6 rem;
+            span {
+                display: block;
+            }
+        }
+    }
+
+    .wellington_about,
+    .prague_about,
+    .cusco_about,
+    .arusha_about {
+        h1 {
+            font-size: 1.6rem;
+        }
+    }
+}
+/* -------------------------- attraction of cities -------------------------------------------- */
+
 .wellington_attractions,
 .prague_attractions,
 .cusco_attractions,
@@ -445,7 +670,7 @@ nav {
     
     h1 {
         width: 90%;
-        margin: 20px auto 60px;
+        margin: 60px auto 60px;
         text-align: center;
         font-size: 2.5rem;
         span {
@@ -492,6 +717,30 @@ nav {
     }
 }
 
+@media (min-width: 0px) and (max-width: 768px) {
+    .wellington_attractions {
+        h1 {
+            font-size: 1.6rem;
+            span {
+                display: block;
+            }
+        }
+        .card_container {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+    .prague_attractions,
+    .cusco_attractions,
+    .arusha_attractions {
+        h1 {
+            font-size: 1.6rem;
+        }
+        .card_container {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+}
+/* -------------------------- food of cities -------------------------------------------- */
 .wellington_food,
 .prague_food,
 .cusco_food,
@@ -501,7 +750,7 @@ nav {
 
     h1 {
         width: 90%;
-        margin: 20px auto 60px;
+        margin: 60px auto 60px;
         text-align: center;
         font-size: 2.5rem;
         span {
@@ -519,7 +768,7 @@ nav {
         width: 90%;
         margin: 0 auto;
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         justify-content: center;
         gap: 30px;
         .card {
@@ -548,6 +797,38 @@ nav {
     }
 }
 
+@media (min-width: 769px) and (max-width: 991px) {
+    .wellington_food,
+    .prague_food,
+    .cusco_food,
+    .arusha_food {
+        h1 {
+            font-size: 1.8rem;
+        }
+        .card_container {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+        }
+    }
+
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+    .wellington_food,
+    .prague_food,
+    .cusco_food,
+    .arusha_food {
+        h1 {
+            font-size: 1.6rem;
+        }
+        .card_container {
+            grid-template-columns: repeat(1, 1fr);
+            gap: 30px;
+        }
+    }
+}
+
+/* -------------------------- accommodation of cities -------------------------------------------- */
 .wellington_accommodation,
 .prague_accommodation,
 .cusco_accommodation,
@@ -557,7 +838,7 @@ nav {
     
     h1 {
         width: 90%;
-        margin: 20px auto 60px;
+        margin: 60px auto 60px;
         text-align: center;
         font-size: 2.5rem;
         span {
@@ -599,10 +880,109 @@ nav {
                 p::first-letter {
                     color: var(--secondary-5);
                 }
+                p:nth-child(4)::after {
+                    content: " / Night";
+                }
             }
         }
     }
 }
+
+@media (min-width: 0px) and (max-width: 768px) {
+    .wellington_accommodation,
+    .prague_accommodation,
+    .cusco_accommodation,
+    .arusha_accommodation {
+        h1 {
+            font-size: 1.6rem;
+            span {
+                display: block;
+            }
+        }
+        .card_container {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+}
+
+
+
+/* -------------------------- transportation of cities -------------------------------------------- */
+.wellington_transportation,
+.prague_transportation,
+.cusco_transportation,
+.arusha_transportation {
+    background: var(--primary-10);
+    padding: 50px 0;
+    
+    h1 {
+        width: 90%;
+        margin: 60px auto 60px;
+        text-align: center;
+        font-size: 2.5rem;
+        span {
+            padding: 10px;
+            border: 1px solid var(--secondary-3);
+        }
+        span:nth-child(even) {
+            background: var(--secondary-3);
+            color: var(--primary-white);
+        }
+    }
+    .card_container {
+        width: 90%;
+        margin: 0 auto;
+        .card {
+            width: 90%;
+            margin: 30px auto;
+            padding: 20px;
+            border: 3px solid var(--secondary-3);
+
+            h2 {
+                font-size: 2rem;
+                text-transform: capitalize;
+                border-top: 2px solid var(--secondary-5);
+                border-left: 10px solid var(--secondary-5);
+                padding-top: 10px;
+                margin-top: 10px;
+            }
+            p {
+                font-size: 1.1rem;
+            }
+            p::first-letter {
+                color: var(--secondary-5);
+                font-size: 1.8rem;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+    .wellington_transportation,
+    .prague_transportation,
+    .cusco_transportation,
+    .arusha_transportation {
+
+        h1 {
+            font-size: 1.6rem;
+            span {
+                display: block;
+            }
+        }
+        .card_container {
+            .card {
+                h2 {
+                    font-size: 1.4rem;
+                }
+                p {
+                    font-size: 1.1rem;
+                }
+            }
+        }
+    }
+}
+
 
 
 

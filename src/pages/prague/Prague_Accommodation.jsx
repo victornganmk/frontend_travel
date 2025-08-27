@@ -20,7 +20,7 @@ const Prague_Accommodation = () => {
                                 A luxurious 5-star hotel blending Renaissance and Baroque buildings, offering elegant rooms, fine dining, and Vltava River views, steps from Charles Bridge and Old Town Square.
                             </p>
                             <p>
-                                <i class="fa-solid fa-money-check-dollar"></i>
+                                <i class="fa-solid fa-comment-dollar"></i>
                                 HK$3,900
                             </p>
                             <p>
@@ -48,7 +48,7 @@ const Prague_Accommodation = () => {
                                 Modern aparthotel near Powder Tower, offering stylish rooms and apartments with kitchens, WiFi, and city views, close to Old Town and public transport hubs.
                             </p>
                             <p>
-                                <i class="fa-solid fa-money-check-dollar"></i>
+                                <i class="fa-solid fa-comment-dollar"></i>
                                 HK$1,170
                             </p>
                             <p>
@@ -76,7 +76,7 @@ const Prague_Accommodation = () => {
                                 A 5-star Art Deco gem with elegant rooms, a spa, sauna, and conference facilities, centrally located near Republic Square, perfect for luxury and business travelers.
                             </p>
                             <p>
-                                <i class="fa-solid fa-money-check-dollar"></i>
+                                <i class="fa-solid fa-comment-dollar"></i>
                                 HK$1,794
                             </p>
                             <p>
@@ -97,14 +97,14 @@ const Prague_Accommodation = () => {
                             <h2>B&B Hotel Prague City</h2>
                             <p>
                                 <i class="fa-solid fa-house"></i>
-                                Hotel (Economic)
+                                Hotel
                             </p>
                             <p>
                                 <i class="fa-solid fa-bookmark"></i>
                                 Budget-friendly hotel offering clean, modern rooms with free WiFi, near Vltava River and Prague Castle, ideal for travelers seeking affordability in a central location.
                             </p>
                             <p>
-                                <i class="fa-solid fa-money-check-dollar"></i>
+                                <i class="fa-solid fa-comment-dollar"></i>
                                 HK$593
                             </p>
                             <p>

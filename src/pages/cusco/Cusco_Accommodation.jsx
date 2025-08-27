@@ -20,7 +20,7 @@ const Cusco_Accommodation = () => {
                                 A luxurious 5-star colonial manor in Cusco’s heart, offering 11 suites with Andean decor, spa services, and fine dining, near Plaza de Armas and Qorikancha.
                             </p>
                             <p>
-                                <i class="fa-solid fa-money-check-dollar"></i>
+                                <i class="fa-solid fa-comment-dollar"></i>
                                 HK$2,371
                             </p>
                             <p>
@@ -48,7 +48,7 @@ const Cusco_Accommodation = () => {
                                 A modern 4-star hotel near Plaza de Armas, featuring 127 rooms, Mamají Restaurant with Peruvian cuisine, a business center, and free airport shuttle, ideal for comfort.
                             </p>
                             <p>
-                                <i class="fa-solid fa-money-check-dollar"></i>
+                                <i class="fa-solid fa-comment-dollar"></i>
                                 HK$858
                             </p>
                             <p>
@@ -76,7 +76,7 @@ const Cusco_Accommodation = () => {
                                 A 5-star hotel in a colonial mansion, offering cozy rooms, a gourmet restaurant, and a courtyard, blending Inca and Spanish charm near Qorikancha.
                             </p>
                             <p>
-                                <i class="fa-solid fa-money-check-dollar"></i>
+                                <i class="fa-solid fa-comment-dollar"></i>
                                 HK$1,326
                             </p>
                             <p>
@@ -97,14 +97,14 @@ const Cusco_Accommodation = () => {
                             <h2>La Posada del Viajero</h2>
                             <p>
                                 <i class="fa-solid fa-house"></i>
-                                Hotel (Economic)
+                                Hotel
                             </p>
                             <p>
                                 <i class="fa-solid fa-bookmark"></i>
                                 Budget-friendly hotel near Cusco Cathedral, offering cozy rooms, free WiFi, buffet breakfast, and a shared kitchen, perfect for travelers seeking affordability in the historic center.
                             </p>
                             <p>
-                                <i class="fa-solid fa-money-check-dollar"></i>
+                                <i class="fa-solid fa-comment-dollar"></i>
                                 HK$390
                             </p>
                             <p>

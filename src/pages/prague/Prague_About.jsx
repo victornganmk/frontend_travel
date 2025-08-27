@@ -4,8 +4,25 @@ const Prague_About = () => {
     return (
         <>
             <main className="prague_about">
-                <h1>prague</h1>
+                <h1><span>prague</span><span>about</span></h1>
                 <section className="card_container">
+                    <article className="video_container">
+                        <iframe
+                            src="https://www.youtube.com/embed/idg6vW3vXtE?si=xkRYR_L7RNFtX-ss"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer;
+                            autoplay;
+                            clipboard-write;
+                            encrypted-media;
+                            gyroscope;
+                            picture-in-picture;
+                            web-share"
+                            referrerpolicy="strict-origin-when-cross-origin"
+                            allowfullscreen
+                        >
+                        </iframe>
+                    </article>
                     <article className="card">
                         <div className="image">
                             <img src="/img/home/home_card_image_01.avif" alt="" />

@@ -1,7 +1,10 @@
 import react, { useEffect } from 'react'
-import { BrowserRouter, Link, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Router, Routes, Route, Link, useLocation } from 'react-router-dom';
+import ScrollToTop from './helpers/ScrollToTop';
+
+import Navbar from './pages/components/Navbar';
+import Footer from './pages/components/Footer';
 import Home from './pages/home/Home'
-import Navbar from './pages/global_components/Navbar';
 import Wellington_About from './pages/wellington/Wellington_About';
 import Prague_About from './pages/prague/Prague_About';
 import Cusco_About from './pages/cusco/Cusco_About';
@@ -18,36 +21,42 @@ import Wellington_Accommodation from './pages/wellington/Wellington_Accommodatio
 import Prague_Accommodation from './pages/prague/Prague_Accommodation';
 import Cusco_Accommodation from './pages/cusco/Cusco_Accommodation';
 import Arusha_Accommodation from './pages/arusha/Arusha_Acommodation';
+import Wellington_Transportation from './pages/wellington/Wellington_Transportation';
+import Prague_Transportation from './pages/prague/Prague_Transportation';
+import Cusco_Transportation from './pages/cusco/Cusco.Transportation';
+import Arusha_Transportation from './pages/arusha/Arusha_Transportation';
 
 function App() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
 
   return (
     <>
       <BrowserRouter>
-      <Navbar />
-      
-      <Routes>
-        <Route path='/' element={<Home />}></Route>
-        <Route path='/wellington_about' element={<Wellington_About />}></Route>
-        <Route path='/wellington_attractions' element={<Wellington_Attractions />}></Route>
-        <Route path='/wellington_food' element={<Wellington_Food />}></Route>
-        <Route path='/wellington_accommodation' element={<Wellington_Accommodation />}></Route>
-        <Route path='/prague_about' element={<Prague_About />}></Route>
-        <Route path='/prague_attractions' element={<Prague_Attractions />}></Route>
-        <Route path='/prague_food' element={<Prague_Food />}></Route>
-        <Route path='/prague_accommodation' element={<Prague_Accommodation />}></Route>
-        <Route path='/cusco_about' element={<Cusco_About />}></Route>
-        <Route path='/cusco_attractions' element={<Cusco_Attractions />}></Route>
-        <Route path='/cusco_food' element={<Cusco_Food />}></Route>
-        <Route path='/cusco_accommodation' element={<Cusco_Accommodation />}></Route>
-        <Route path='/arusha_about' element={<Arusha_About />}></Route>
-        <Route path='/arusha_attractions' element={<Arusha_Attractions />}></Route>
-        <Route path='/arusha_food' element={<Arusha_Food />}></Route>
-        <Route path='/arusha_accommodation' element={<Arusha_Accommodation />}></Route>
-      </Routes>
+        <ScrollToTop />
+        <Navbar />
+        <Routes>
+          <Route path='/' element={<Home />}></Route>
+          <Route path='/wellington_about' element={<Wellington_About />}></Route>
+          <Route path='/wellington_attractions' element={<Wellington_Attractions />}></Route>
+          <Route path='/wellington_food' element={<Wellington_Food />}></Route>
+          <Route path='/wellington_accommodation' element={<Wellington_Accommodation />}></Route>
+          <Route path='/wellington_transportation' element={<Wellington_Transportation />}></Route>
+          <Route path='/prague_about' element={<Prague_About />}></Route>
+          <Route path='/prague_attractions' element={<Prague_Attractions />}></Route>
+          <Route path='/prague_food' element={<Prague_Food />}></Route>
+          <Route path='/prague_accommodation' element={<Prague_Accommodation />}></Route>
+          <Route path='/prague_transportation' element={<Prague_Transportation />}></Route>
+          <Route path='/cusco_about' element={<Cusco_About />}></Route>
+          <Route path='/cusco_attractions' element={<Cusco_Attractions />}></Route>
+          <Route path='/cusco_food' element={<Cusco_Food />}></Route>
+          <Route path='/cusco_accommodation' element={<Cusco_Accommodation />}></Route>
+          <Route path='/cusco_transportation' element={<Cusco_Transportation />}></Route>
+          <Route path='/arusha_about' element={<Arusha_About />}></Route>
+          <Route path='/arusha_attractions' element={<Arusha_Attractions />}></Route>
+          <Route path='/arusha_food' element={<Arusha_Food />}></Route>
+          <Route path='/arusha_accommodation' element={<Arusha_Accommodation />}></Route>
+          <Route path='/arusha_transportation' element={<Arusha_Transportation />}></Route>
+        </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   )

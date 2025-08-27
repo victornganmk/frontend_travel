@@ -20,7 +20,7 @@ const Arusha_Accommodation = () => {
                                 A luxurious 5-star hotel on a coffee plantation, offering modern rooms, Mount Meru views, a spa, rooftop dining, and conference facilities, ideal for safaris and relaxation.
                             </p>
                             <p>
-                                <i class="fa-solid fa-money-check-dollar"></i>
+                                <i class="fa-solid fa-comment-dollar"></i>
                                 HK$1,950
                             </p>
                             <p>
@@ -48,7 +48,7 @@ const Arusha_Accommodation = () => {
                                 Historic hotel since 1894, blending colonial charm with modern comforts, offering 114 stylish rooms, a pool, gym, and Parachichi Restaurant, near the Clock Tower.
                             </p>
                             <p>
-                                <i class="fa-solid fa-money-check-dollar"></i>
+                                <i class="fa-solid fa-comment-dollar"></i>
                                 HK$1,326
                             </p>
                             <p>
@@ -76,7 +76,7 @@ const Arusha_Accommodation = () => {
                                 A cozy 5-star resort on a coffee plantation, featuring 30 plantation houses, a spa, dining, and rural ambiance, near Arusha Airport and town.
                             </p>
                             <p>
-                                <i class="fa-solid fa-money-check-dollar"></i>
+                                <i class="fa-solid fa-comment-dollar"></i>
                                 HK$1,716
                             </p>
                             <p>
@@ -97,14 +97,14 @@ const Arusha_Accommodation = () => {
                             <h2>Tulia Boutique Hotel & Spa</h2>
                             <p>
                                 <i class="fa-solid fa-house"></i>
-                                Hotel (Economic)
+                                Hotel
                             </p>
                             <p>
                                 <i class="fa-solid fa-bookmark"></i>
                                 Budget-friendly boutique hotel with a pool, high-quality rooms, free WiFi, and breakfast, offering great value near Arusha’s city center, perfect for safari travelers.
                             </p>
                             <p>
-                                <i class="fa-solid fa-money-check-dollar"></i>
+                                <i class="fa-solid fa-comment-dollar"></i>
                                 HK$468
                             </p>
                             <p>

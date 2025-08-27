@@ -4,8 +4,25 @@ const Arusha_About = () => {
     return (
         <>
             <main className="arusha_about">
-                <h1>arusha</h1>
+                <h1><span>arusha</span><span>about</span></h1>
                 <section className="card_container">
+                    <article className="video_container">
+                        <iframe
+                            src="https://www.youtube.com/embed/-e40FKkbRdA?si=-ODcgbqMJkdrjaNL"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer;
+                            autoplay;
+                            clipboard-write;
+                            encrypted-media;
+                            gyroscope;
+                            picture-in-picture;
+                            web-share"
+                            referrerpolicy="strict-origin-when-cross-origin"
+                            allowfullscreen
+                        >
+                        </iframe>
+                    </article>
                     <article className="card">
                         <div className="image">
                             <img src="/img/home/home_card_image_01.avif" alt="" />

@@ -14,7 +14,8 @@ const Home = () => {
             <section className="home_about" id="home_about">
                 <article>
                     <h2>about</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque eveniet perferendis pariatur! Rerum, beatae quibusdam? Maiores eaque blanditiis velit nulla cum libero similique. Explicabo minima, aspernatur illum quae blanditiis voluptatibus assumenda dolorum nam laboriosam. Odio praesentium quos nisi tenetur eius repellendus maiores dolorem odit? Modi adipisci id incidunt sint odit?</p>
+                    <p>For a year-long global adventure, I’ve chosen four cities across continents for their unique attractions and ideal travel seasons: Wellington (New Zealand, Oceania), Prague (Czech Republic, Europe), Cusco (Peru, South America), and Arusha (Tanzania, Africa).</p>
+                    <p>Inspired by Machu Picchu, a New Wonder of the World, Cusco’s mystical Inca ruins captivated me. Next, Arusha, discovered through a YouTube channel on Tanzanian life, offers Mount Kilimanjaro (5,895m) and wildlife-rich national parks. Prague, a vibrant metropolis with a fairy-tale skyline and UNESCO-listed historic center, adds European charm. Wellington, suggested by AI, completes the itinerary, skipping Asia per my preference. Each city’s optimal travel time aligns perfectly for a seamless year-long journey.</p>
                 </article>
                 <div className="image">
                     <div className="card_container">

@@ -20,7 +20,7 @@ const Wellington_Accommodation = () => {
                                 A luxurious 5-star hotel in the heart of Wellington, offering 236 stylish rooms, a large indoor pool, gym, and fine dining, steps from the waterfront and cultural attractions.
                             </p>
                             <p>
-                                <i class="fa-solid fa-money-check-dollar"></i>
+                                <i class="fa-solid fa-comment-dollar"></i>
                                 HK$1,219
                             </p>
                             <p>
@@ -48,7 +48,7 @@ const Wellington_Accommodation = () => {
                                 Modern aparthotel in Te Aro, near the waterfront, offering studio and apartment-style rooms with kitchens, free WiFi, and easy access to Cuba Street and Te Papa museum.
                             </p>
                             <p>
-                                <i class="fa-solid fa-money-check-dollar"></i>
+                                <i class="fa-solid fa-comment-dollar"></i>
                                 HK$590
                             </p>
                             <p>
@@ -76,7 +76,7 @@ const Wellington_Accommodation = () => {
                                 A boutique design hotel on the waterfront, featuring eclectic art, chic rooms, and French-inspired dining, ideal for cultural enthusiasts near Te Papa and Courtenay Place.
                             </p>
                             <p>
-                                <i class="fa-solid fa-money-check-dollar"></i>
+                                <i class="fa-solid fa-comment-dollar"></i>
                                 HK$1,406
                             </p>
                             <p>
@@ -97,14 +97,14 @@ const Wellington_Accommodation = () => {
                             <h2>Willis Wellington Hotel</h2>
                             <p>
                                 <i class="fa-solid fa-house"></i>
-                                Hotel (Economic)
+                                Hotel
                             </p>
                             <p>
                                 <i class="fa-solid fa-bookmark"></i>
                                 Affordable hotel in the vibrant Cuba Quarter, offering clean, no-frills rooms with free WiFi, close to Te Papa, waterfront dining, and public transport, ideal for budget travelers.
                             </p>
                             <p>
-                                <i class="fa-solid fa-money-check-dollar"></i>
+                                <i class="fa-solid fa-comment-dollar"></i>
                                 HK$403
                             </p>
                             <p>
