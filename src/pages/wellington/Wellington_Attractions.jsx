@@ -8,7 +8,7 @@ const Wellington_Attractions = () => {
                 <section className="card_container">
                     <article className="card">
                         <div className="image">
-                            <img src="/img/home/home_card_image_01.avif" alt="" />
+                            <img src="/img/wellington/wellington_attractions_01.avif" alt="" />
                         </div>
                         <div className="info">
                             <h2>Museum of New Zealand Te Papa Tongarewa</h2>
@@ -28,7 +28,7 @@ const Wellington_Attractions = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/home/home_card_image_01.avif" alt="" />
+                            <img src="/img/wellington/wellington_attractions_02.avif" alt="" />
                         </div>
                         <div className="info">
                             <h2>Zealandia Te Māra a Tāne</h2>
@@ -48,7 +48,7 @@ const Wellington_Attractions = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/home/home_card_image_01.avif" alt="" />
+                            <img src="/img/wellington/wellington_attractions_03.avif" alt="" />
                         </div>
                         <div className="info">
                             <h2>Wellington Cable Car</h2>
@@ -68,7 +68,7 @@ const Wellington_Attractions = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/home/home_card_image_01.avif" alt="" />
+                            <img src="/img/wellington/wellington_attractions_04.avif" alt="" />
                         </div>
                         <div className="info">
                             <h2>Mount Victoria Lookout</h2>
@@ -88,7 +88,7 @@ const Wellington_Attractions = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/home/home_card_image_01.avif" alt="" />
+                            <img src="/img/wellington/wellington_attractions_05.avif" alt="" />
                         </div>
                         <div className="info">
                             <h2>Wētā Cave (Wētā Workshop)</h2>
@@ -108,7 +108,7 @@ const Wellington_Attractions = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/home/home_card_image_01.avif" alt="" />
+                            <img src="/img/wellington/wellington_attractions_06.avif" alt="" />
                         </div>
                         <div className="info">
                             <h2>Wellington Botanic Garden</h2>

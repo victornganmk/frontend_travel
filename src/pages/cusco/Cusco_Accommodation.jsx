@@ -7,7 +7,7 @@ const Cusco_Accommodation = () => {
             <section className="card_container">
                 <article className="card">
                     <div className="image">
-                            <img src="/img/home/home_card_image_01.avif" alt="" />
+                            <img src="/img/cusco/cusco_accommodation_01.avif" alt="" />
                     </div>
                     <div className="info">
                             <h2>Inkaterra La Casona Relais & Châteaux</h2>
@@ -29,13 +29,19 @@ const Cusco_Accommodation = () => {
                             </p>
                             <p>
                                 <i class="fa-solid fa-paper-plane"></i>
-                                <a href="https://www.inkaterra.com/inkaterra/inkaterra-la-casona/">https://www.inkaterra.com/inkaterra/inkaterra-la-casona/</a>
+                                <a 
+                                    href="https://www.inkaterra.com/inkaterra/inkaterra-la-casona/"
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                >
+                                    https://www.inkaterra.com/inkaterra/inkaterra-la-casona/
+                                </a>
                             </p>
                     </div>
                 </article>
                 <article className="card">
                     <div className="image">
-                            <img src="/img/home/home_card_image_01.avif" alt="" />
+                            <img src="/img/cusco/cusco_accommodation_02.avif" alt="" />
                     </div>
                     <div className="info">
                             <h2>Sonesta Hotel Cusco</h2>
@@ -57,13 +63,19 @@ const Cusco_Accommodation = () => {
                             </p>
                             <p>
                                 <i class="fa-solid fa-paper-plane"></i>
-                                <a href="https://www.sonesta.com/sonesta-hotels-resorts/peru/cusco/sonesta-hotel-cusco">https://www.sonesta.com/sonesta-hotels-resorts/peru/cusco/sonesta-hotel-cusco</a>
+                                <a 
+                                    href="https://www.sonesta.com/sonesta-hotels-resorts/peru/cusco/sonesta-hotel-cusco"
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                >
+                                    https://www.sonesta.com/sonesta-hotels-resorts/peru/cusco/sonesta-hotel-cusco
+                                </a>
                             </p>
                     </div>
                 </article>
                 <article className="card">
                     <div className="image">
-                            <img src="/img/home/home_card_image_01.avif" alt="" />
+                            <img src="/img/cusco/cusco_accommodation_03.avif" alt="" />
                     </div>
                     <div className="info">
                             <h2>Casa Andina Premium Cusco</h2>
@@ -85,13 +97,19 @@ const Cusco_Accommodation = () => {
                             </p>
                             <p>
                                 <i class="fa-solid fa-paper-plane"></i>
-                                <a href="https://www.casa-andina.com/en/hotels/casa-andina-premium-cusco">https://www.casa-andina.com/en/hotels/casa-andina-premium-cusco</a>
-                            </p>
+                                <a 
+                                    href="https://www.casa-andina.com/en/hotels/casa-andina-premium-cusco"
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                >
+                                    https://www.casa-andina.com/en/hotels/casa-andina-premium-cusco
+                                </a>
+                        </p>
                     </div>
                 </article>
                 <article className="card">
                     <div className="image">
-                            <img src="/img/home/home_card_image_01.avif" alt="" />
+                            <img src="/img/cusco/cusco_accommodation_04.avif" alt="" />
                     </div>
                     <div className="info">
                             <h2>La Posada del Viajero</h2>
@@ -113,7 +131,13 @@ const Cusco_Accommodation = () => {
                             </p>
                             <p>
                                 <i class="fa-solid fa-paper-plane"></i>
-                                <a href="http://www.posadadelviajerocusco.com/">http://www.posadadelviajerocusco.com/</a>
+                                <a 
+                                    href="http://www.posadadelviajerocusco.com/"
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                >
+                                    http://www.posadadelviajerocusco.com/
+                                </a>
                             </p>
                     </div>
                 </article>

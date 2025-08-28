@@ -47,14 +47,32 @@ const Footer = () => {
             <div className="footer_icon_container">
                 <ul className="icon_list">
                     <li className="icon_item">
-                        <a href="https://www.facebook.com/?locale=zh_HK"><i className="fa-brands fa-facebook"></i></a>
-                    </li>
-                    <li className="icon_item">
-                        <a href="https://x.com/"><i className="fa-brands fa-twitter"></i></a>
-                    </li>
-                    <li className="icon_item">
-                        <a href="https://www.threads.com/?hl=zh-hk"><i className="fa-brands fa-threads"></i></a>
-                    </li>
+                            <a 
+                                href="https://www.facebook.com/?locale=zh_HK"
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                            >
+                                <i className="fa-brands fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li className="icon_item">
+                            <a 
+                                href="https://x.com/"
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                            >
+                                <i className="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li className="icon_item">
+                            <a 
+                                href="https://www.threads.com/?hl=zh-hk"
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                            >
+                                <i className="fa-brands fa-threads"></i>
+                            </a>
+                        </li>
                 </ul>
             </div>
             <p className='copyright'>Copyright &copy; <span id="date">{year}</span> Victor Ngan. All Rights Reserved. </p>

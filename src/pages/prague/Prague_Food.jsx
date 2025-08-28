@@ -7,7 +7,7 @@ const Prague_Food = () => {
             <section className="card_container">
                 <article className="card">
                     <div className="image">
-                        <img src="/img/home/home_card_image_01.avif" alt="" />
+                        <img src="/img/prague/prague_food_01.avif" alt="" />
                     </div>
                     <div className="info">
                         <h2>Svíčková na smetaně</h2>
@@ -16,7 +16,7 @@ const Prague_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/home/home_card_image_01.avif" alt="" />
+                        <img src="/img/prague/prague_food_02.avif" alt="" />
                     </div>
                     <div className="info">
                         <h2>Vepřo knedlo zelo</h2>
@@ -25,7 +25,7 @@ const Prague_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/home/home_card_image_01.avif" alt="" />
+                        <img src="/img/prague/prague_food_03.avif" alt="" />
                     </div>
                     <div className="info">
                         <h2>Goulash</h2>
@@ -34,7 +34,7 @@ const Prague_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/home/home_card_image_01.avif" alt="" />
+                        <img src="/img/prague/prague_food_04.avif" alt="" />
                     </div>
                     <div className="info">
                         <h2>Pork Knuckle (Koleno)</h2>
@@ -43,7 +43,7 @@ const Prague_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/home/home_card_image_01.avif" alt="" />
+                        <img src="/img/prague/prague_food_05.avif" alt="" />
                     </div>
                     <div className="info">
                         <h2>Kulajda</h2>
@@ -52,7 +52,7 @@ const Prague_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/home/home_card_image_01.avif" alt="" />
+                        <img src="/img/prague/prague_food_06.avif" alt="" />
                     </div>
                     <div className="info">
                         <h2>Chlebíčky</h2>
@@ -61,7 +61,7 @@ const Prague_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/home/home_card_image_01.avif" alt="" />
+                        <img src="/img/prague/prague_food_07.avif" alt="" />
                     </div>
                     <div className="info">
                         <h2>Smažený sýr</h2>
@@ -70,7 +70,7 @@ const Prague_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/home/home_card_image_01.avif" alt="" />
+                        <img src="/img/prague/prague_food_08.avif" alt="" />
                     </div>
                     <div className="info">
                         <h2>Bramboráky</h2>
@@ -79,7 +79,7 @@ const Prague_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/home/home_card_image_01.avif" alt="" />
+                        <img src="/img/prague/prague_food_09.avif" alt="" />
                     </div>
                     <div className="info">
                         <h2>Pilsner Urquell</h2>
@@ -88,7 +88,7 @@ const Prague_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/home/home_card_image_01.avif" alt="" />
+                        <img src="/img/prague/prague_food_10.avif" alt="" />
                     </div>
                     <div className="info">
                         <h2>Moravian Wine</h2>
@@ -97,7 +97,7 @@ const Prague_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/home/home_card_image_01.avif" alt="" />
+                        <img src="/img/prague/prague_food_11.avif" alt="" />
                     </div>
                     <div className="info">
                         <h2>Becherovka</h2>
@@ -106,7 +106,7 @@ const Prague_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/home/home_card_image_01.avif" alt="" />
+                        <img src="/img/prague/prague_food_12.avif" alt="" />
                     </div>
                     <div className="info">
                         <h2>Kofola</h2>

@@ -7,7 +7,7 @@ const Arusha_Accommodation = () => {
             <section className="card_container">
                 <article className="card">
                     <div className="image">
-                            <img src="/img/home/home_card_image_01.avif" alt="" />
+                            <img src="/img/arusha/arusha_accommodation_01.avif" alt="" />
                     </div>
                     <div className="info">
                             <h2>Gran Meliá Arusha</h2>
@@ -29,13 +29,19 @@ const Arusha_Accommodation = () => {
                             </p>
                             <p>
                                 <i class="fa-solid fa-paper-plane"></i>
-                                <a href="https://www.melia.com/en/hotels/tanzania/arusha/gran-melia-arusha">https://www.melia.com/en/hotels/tanzania/arusha/gran-melia-arusha</a>
+                                <a 
+                                    href="https://www.melia.com/en/hotels/tanzania/arusha/gran-melia-arusha"
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                >
+                                    https://www.melia.com/en/hotels/tanzania/arusha/gran-melia-arusha
+                                </a>
                             </p>
                     </div>
                 </article>
                 <article className="card">
                     <div className="image">
-                            <img src="/img/home/home_card_image_01.avif" alt="" />
+                            <img src="/img/arusha/arusha_accommodation_02.avif" alt="" />
                     </div>
                     <div className="info">
                             <h2>Four Points by Sheraton Arusha</h2>
@@ -57,13 +63,19 @@ const Arusha_Accommodation = () => {
                             </p>
                             <p>
                                 <i class="fa-solid fa-paper-plane"></i>
-                                <a href="https://www.marriott.com/hotels/travel/arkfp-four-points-sheraton-arusha">https://www.marriott.com/hotels/travel/arkfp-four-points-sheraton-arusha</a>
+                                <a 
+                                    href="https://www.marriott.com/hotels/travel/arkfp-four-points-sheraton-arusha"
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                >
+                                    https://www.marriott.com/hotels/travel/arkfp-four-points-sheraton-arusha
+                                </a>
                             </p>
                     </div>
                 </article>
                 <article className="card">
                     <div className="image">
-                            <img src="/img/home/home_card_image_01.avif" alt="" />
+                            <img src="/img/arusha/arusha_accommodation_03.avif" alt="" />
                     </div>
                     <div className="info">
                             <h2>Arusha Coffee Lodge</h2>
@@ -85,13 +97,17 @@ const Arusha_Accommodation = () => {
                             </p>
                             <p>
                                 <i class="fa-solid fa-paper-plane"></i>
-                                <a href="https://www.elewana.com/en/hotels/arusha-coffee-lodge">https://www.elewana.com/en/hotels/arusha-coffee-lodge</a>
+                                <a 
+                                    href="https://www.elewana.com/en/hotels/arusha-coffee-lodge"
+                                >
+                                    https://www.elewana.com/en/hotels/arusha-coffee-lodge
+                                </a>
                             </p>
                     </div>
                 </article>
                 <article className="card">
                     <div className="image">
-                            <img src="/img/home/home_card_image_01.avif" alt="" />
+                            <img src="/img/arusha/arusha_accommodation_04.avif" alt="" />
                     </div>
                     <div className="info">
                             <h2>Tulia Boutique Hotel & Spa</h2>
@@ -113,7 +129,13 @@ const Arusha_Accommodation = () => {
                             </p>
                             <p>
                                 <i class="fa-solid fa-paper-plane"></i>
-                                <a href="https://www.tuliahotelandspa.com">https://www.tuliahotelandspa.com</a>
+                                <a 
+                                    href="https://www.tuliahotelandspa.com"
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                >
+                                    https://www.tuliahotelandspa.com
+                                </a>
                             </p>
                     </div>
                 </article>

@@ -8,7 +8,7 @@ const Prague_Attractions = () => {
                 <section className="card_container">
                     <article className="card">
                         <div className="image">
-                            <img src="/img/home/home_card_image_01.avif" alt="" />
+                            <img src="/img/prague/prague_attractions_01.avif" alt="" />
                         </div>
                         <div className="info">
                             <h2>Prague Castle</h2>
@@ -28,7 +28,7 @@ const Prague_Attractions = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/home/home_card_image_01.avif" alt="" />
+                            <img src="/img/prague/prague_attractions_02.avif" alt="" />
                         </div>
                         <div className="info">
                             <h2>Charles Bridge</h2>
@@ -48,13 +48,13 @@ const Prague_Attractions = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/home/home_card_image_01.avif" alt="" />
+                            <img src="/img/prague/prague_attractions_03.avif" alt="" />
                         </div>
                         <div className="info">
                             <h2>Old Town Square</h2>
                             <p>
                                 <i class="fa-solid fa-bookmark"></i>
-                                Prague’s historic heart, Old Town Square features the Astronomical Clock, Gothic Týn Church, and vibrant markets, surrounded by colorful buildings, hosting festivals and local culture. (27 words)
+                                Prague’s historic heart, Old Town Square features the Astronomical Clock, Gothic Týn Church, and vibrant markets, surrounded by colorful buildings, hosting festivals and local culture.
                             </p>
                             <p>
                                 <i class="fa-solid fa-location-dot"></i>
@@ -68,7 +68,7 @@ const Prague_Attractions = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/home/home_card_image_01.avif" alt="" />
+                            <img src="/img/prague/prague_attractions_04.avif" alt="" />
                         </div>
                         <div className="info">
                             <h2>Petřín Hill</h2>
@@ -88,7 +88,7 @@ const Prague_Attractions = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/home/home_card_image_01.avif" alt="" />
+                            <img src="/img/prague/prague_attractions_05.avif" alt="" />
                         </div>
                         <div className="info">
                             <h2>Jewish Quarter (Josefov)</h2>
@@ -108,7 +108,7 @@ const Prague_Attractions = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/home/home_card_image_01.avif" alt="" />
+                            <img src="/img/prague/prague_attractions_06.avif" alt="" />
                         </div>
                         <div className="info">
                             <h2>Vyšehrad Fortress</h2>

@@ -7,7 +7,7 @@ const Prague_Accommodation = () => {
             <section className="card_container">
                 <article className="card">
                     <div className="image">
-                            <img src="/img/home/home_card_image_01.avif" alt="" />
+                            <img src="/img/prague/prague_accommodation_01.avif" alt="" />
                     </div>
                     <div className="info">
                             <h2>Four Seasons Hotel Prague</h2>
@@ -29,13 +29,19 @@ const Prague_Accommodation = () => {
                             </p>
                             <p>
                                 <i class="fa-solid fa-paper-plane"></i>
-                                <a href="https://www.fourseasons.com/prague">https://www.fourseasons.com/prague</a>
+                                <a 
+                                    href="https://www.fourseasons.com/prague"
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                >
+                                    https://www.fourseasons.com/prague
+                                </a>
                             </p>
                     </div>
                 </article>
                 <article className="card">
                     <div className="image">
-                            <img src="/img/home/home_card_image_01.avif" alt="" />
+                            <img src="/img/prague/prague_accommodation_02.avif" alt="" />
                     </div>
                     <div className="info">
                             <h2>Numa I Republika Rooms & Apartments</h2>
@@ -57,13 +63,19 @@ const Prague_Accommodation = () => {
                             </p>
                             <p>
                                 <i class="fa-solid fa-paper-plane"></i>
-                                <a href="https://www.numastays.com/en/hotels/czech-republic/prague/numa-republika-rooms-apartments">https://www.numastays.com/en/hotels/czech-republic/prague/numa-republika-rooms-apartments</a>
+                                <a 
+                                    href="https://www.numastays.com/en/hotels/czech-republic/prague/numa-republika-rooms-apartments"
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                >
+                                    https://www.numastays.com/en/hotels/czech-republic/prague/numa-republika-rooms-apartments
+                                </a>
                             </p>
                     </div>
                 </article>
                 <article className="card">
                     <div className="image">
-                            <img src="/img/home/home_card_image_01.avif" alt="" />
+                            <img src="/img/prague/prague_accommodation_03.avif" alt="" />
                     </div>
                     <div className="info">
                             <h2>Art Deco Imperial Hotel</h2>
@@ -85,13 +97,19 @@ const Prague_Accommodation = () => {
                             </p>
                             <p>
                                 <i class="fa-solid fa-paper-plane"></i>
-                                <a href="https://www.hotel-imperial.cz">https://www.hotel-imperial.cz</a>
+                                <a 
+                                    href="https://www.hotel-imperial.cz"
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                >
+                                    https://www.hotel-imperial.cz
+                                </a>
                             </p>
                     </div>
                 </article>
                 <article className="card">
                     <div className="image">
-                            <img src="/img/home/home_card_image_01.avif" alt="" />
+                            <img src="/img/prague/prague_accommodation_04.avif" alt="" />
                     </div>
                     <div className="info">
                             <h2>B&B Hotel Prague City</h2>
@@ -113,7 +131,13 @@ const Prague_Accommodation = () => {
                             </p>
                             <p>
                                 <i class="fa-solid fa-paper-plane"></i>
-                                <a href="https://www.hotel-bb.com/en/hotel/prague-city">https://www.hotel-bb.com/en/hotel/prague-city</a>
+                                <a 
+                                    href="https://www.hotel-bb.com/en/hotel/prague-city"
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                >
+                                    https://www.hotel-bb.com/en/hotel/prague-city
+                                </a>
                             </p>
                     </div>
                 </article>

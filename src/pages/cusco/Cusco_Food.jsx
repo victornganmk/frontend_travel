@@ -7,7 +7,7 @@ const Cusco_Food = () => {
             <section className="card_container">
                 <article className="card">
                     <div className="image">
-                        <img src="/img/home/home_card_image_01.avif" alt="" />
+                        <img src="/img/cusco/cusco_food_01.avif" alt="" />
                     </div>
                     <div className="info">
                         <h2>Cuy al Horno</h2>
@@ -16,7 +16,7 @@ const Cusco_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/home/home_card_image_01.avif" alt="" />
+                        <img src="/img/cusco/cusco_food_02.avif" alt="" />
                     </div>
                     <div className="info">
                         <h2>Chiri Uchu</h2>
@@ -25,7 +25,7 @@ const Cusco_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/home/home_card_image_01.avif" alt="" />
+                        <img src="/img/cusco/cusco_food_03.avif" alt="" />
                     </div>
                     <div className="info">
                         <h2>Sopa de Quinua</h2>
@@ -34,7 +34,7 @@ const Cusco_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/home/home_card_image_01.avif" alt="" />
+                        <img src="/img/cusco/cusco_food_04.avif" alt="" />
                     </div>
                     <div className="info">
                         <h2>Chicha Morada</h2>
@@ -43,7 +43,7 @@ const Cusco_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/home/home_card_image_01.avif" alt="" />
+                        <img src="/img/cusco/cusco_food_05.avif" alt="" />
                     </div>
                     <div className="info">
                         <h2>Chicha de Jora</h2>
@@ -52,7 +52,7 @@ const Cusco_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/home/home_card_image_01.avif" alt="" />
+                        <img src="/img/cusco/cusco_food_06.avif" alt="" />
                     </div>
                     <div className="info">
                         <h2>Anticuchos</h2>
@@ -61,7 +61,7 @@ const Cusco_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/home/home_card_image_01.avif" alt="" />
+                        <img src="/img/cusco/cusco_food_07.avif" alt="" />
                     </div>
                     <div className="info">
                         <h2>Tamales</h2>
@@ -70,7 +70,7 @@ const Cusco_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/home/home_card_image_01.avif" alt="" />
+                        <img src="/img/cusco/cusco_food_08.avif" alt="" />
                     </div>
                     <div className="info">
                         <h2>Lomo Saltado</h2>
@@ -79,7 +79,7 @@ const Cusco_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/home/home_card_image_01.avif" alt="" />
+                        <img src="/img/cusco/cusco_food_09.avif" alt="" />
                     </div>
                     <div className="info">
                         <h2>Picarones</h2>
@@ -88,7 +88,7 @@ const Cusco_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/home/home_card_image_01.avif" alt="" />
+                        <img src="/img/cusco/cusco_food_10.avif" alt="" />
                     </div>
                     <div className="info">
                         <h2>Choclo con Queso</h2>
@@ -97,7 +97,7 @@ const Cusco_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/home/home_card_image_01.avif" alt="" />
+                        <img src="/img/cusco/cusco_food_11.avif" alt="" />
                     </div>
                     <div className="info">
                         <h2>Adobo de Chancho</h2>
@@ -106,7 +106,7 @@ const Cusco_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/home/home_card_image_01.avif" alt="" />
+                        <img src="/img/cusco/cusco_food_12.avif" alt="" />
                     </div>
                     <div className="info">
                         <h2>Papa a la Huancaína</h2>

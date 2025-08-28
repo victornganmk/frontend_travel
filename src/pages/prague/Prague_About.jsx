@@ -25,7 +25,7 @@ const Prague_About = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/home/home_card_image_01.avif" alt="" />
+                            <img src="/img/prague/prague_about_01.avif" alt="" />
                         </div>
                         <div className="info">
                             <h2>history</h2>
@@ -35,7 +35,7 @@ const Prague_About = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/home/home_card_image_01.avif" alt="" />
+                            <img src="/img/prague/prague_about_02.avif" alt="" />
                         </div>
                         <div className="info">
                             <h2>culture</h2>
@@ -45,7 +45,7 @@ const Prague_About = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/home/home_card_image_01.avif" alt="" />
+                            <img src="/img/prague/prague_about_03.avif" alt="" />
                         </div>
                         <div className="info">
                             <h2>geography</h2>

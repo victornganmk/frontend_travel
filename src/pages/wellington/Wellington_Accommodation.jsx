@@ -7,7 +7,7 @@ const Wellington_Accommodation = () => {
             <section className="card_container">
                 <article className="card">
                     <div className="image">
-                            <img src="/img/home/home_card_image_01.avif" alt="" />
+                            <img src="/img/wellington/wellington_accommodation_01.avif" alt="" />
                     </div>
                     <div className="info">
                             <h2>InterContinental Wellington</h2>
@@ -29,13 +29,19 @@ const Wellington_Accommodation = () => {
                             </p>
                             <p>
                                 <i class="fa-solid fa-paper-plane"></i>
-                                <a href="https://wellington.intercontinental.com">https://wellington.intercontinental.com</a>
+                                <a 
+                                    href="https://wellington.intercontinental.com"
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                >
+                                    https://wellington.intercontinental.com
+                                </a>
                             </p>
                     </div>
                 </article>
                 <article className="card">
                     <div className="image">
-                            <img src="/img/home/home_card_image_01.avif" alt="" />
+                            <img src="/img/wellington/wellington_accommodation_02.avif" alt="" />
                     </div>
                     <div className="info">
                             <h2>Oaks Wellington Hotel</h2>
@@ -57,13 +63,19 @@ const Wellington_Accommodation = () => {
                             </p>
                             <p>
                                 <i class="fa-solid fa-paper-plane"></i>
-                                <a href="https://www.oakshotels.com/en/hotels/oaks-wellington-hotel">https://www.oakshotels.com/en/hotels/oaks-wellington-hotel</a>
+                                <a 
+                                    href="https://www.oakshotels.com/en/hotels/oaks-wellington-hotel"
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                >
+                                    https://www.oakshotels.com/en/hotels/oaks-wellington-hotel
+                                </a>
                             </p>
                     </div>
                 </article>
                 <article className="card">
                     <div className="image">
-                            <img src="/img/home/home_card_image_01.avif" alt="" />
+                            <img src="/img/wellington/wellington_accommodation_03.avif" alt="" />
                     </div>
                     <div className="info">
                             <h2>QT Wellington</h2>
@@ -85,13 +97,19 @@ const Wellington_Accommodation = () => {
                             </p>
                             <p>
                                 <i class="fa-solid fa-paper-plane"></i>
-                                <a href="https://www.qthotels.com/en/hotels/qt-wellington">https://www.qthotels.com/en/hotels/qt-wellington</a>
+                                <a 
+                                    href="https://www.qthotels.com/en/hotels/qt-wellington"
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                >
+                                    https://www.qthotels.com/en/hotels/qt-wellington
+                                </a>
                             </p>
                     </div>
                 </article>
                 <article className="card">
                     <div className="image">
-                            <img src="/img/home/home_card_image_01.avif" alt="" />
+                            <img src="/img/wellington/wellington_accommodation_04.avif" alt="" />
                     </div>
                     <div className="info">
                             <h2>Willis Wellington Hotel</h2>
@@ -113,7 +131,13 @@ const Wellington_Accommodation = () => {
                             </p>
                             <p>
                                 <i class="fa-solid fa-paper-plane"></i>
-                                <a href="https://www.williswellingtonhotel.co.nz">https://www.williswellingtonhotel.co.nz</a>
+                                <a 
+                                    href="https://www.williswellingtonhotel.co.nz"
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                >
+                                    https://www.williswellingtonhotel.co.nz
+                                </a>
                             </p>
                     </div>
                 </article>

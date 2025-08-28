@@ -8,7 +8,27 @@ const Arusha_Attractions = () => {
                 <section className="card_container">
                     <article className="card">
                         <div className="image">
-                            <img src="/img/home/home_card_image_01.avif" alt="" />
+                            <img src="/img/arusha/arusha_attractions_01.avif" alt="" />
+                        </div>
+                        <div className="info">
+                            <h2>Mount Kilimanjaro</h2>
+                            <p>
+                                <i class="fa-solid fa-bookmark"></i>
+                                Mount Kilimanjaro, Africa’s highest peak at 5,895m, is a dormant volcano in Kilimanjaro National Park, offering stunning views, diverse ecosystems, and challenging trekking routes to Uhuru Peak.
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Mount Kilimanjaro National Park, Kilimanjaro Region, Tanzania (nearest access via Marangu Gate, Marangu, Moshi, Tanzania)
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-car"></i>
+                                Taxi (52-70 min), shared shuttle/minibus (60-80 min), or private tour operator (52-70 min) to Marangu Gate. Guided tours recommended.
+                            </p>
+                        </div>
+                    </article>
+                    <article className="card">
+                        <div className="image">
+                            <img src="/img/arusha/arusha_attractions_02.avif" alt="" />
                         </div>
                         <div className="info">
                             <h2>Arusha National Park</h2>
@@ -28,7 +48,7 @@ const Arusha_Attractions = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/home/home_card_image_01.avif" alt="" />
+                            <img src="/img/arusha/arusha_attractions_03.avif" alt="" />
                         </div>
                         <div className="info">
                             <h2>Cultural Heritage Centre</h2>
@@ -48,7 +68,7 @@ const Arusha_Attractions = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/home/home_card_image_01.avif" alt="" />
+                            <img src="/img/arusha/arusha_attractions_04.avif" alt="" />
                         </div>
                         <div className="info">
                             <h2>Meserani Snake Park</h2>
@@ -66,10 +86,9 @@ const Arusha_Attractions = () => {
                             </p>
                         </div>
                     </article>
-                    
                     <article className="card">
                         <div className="image">
-                            <img src="/img/home/home_card_image_01.avif" alt="" />
+                            <img src="/img/arusha/arusha_attractions_05.avif" alt="" />
                         </div>
                         <div className="info">
                             <h2>The Tanzanite Experience</h2>
@@ -89,27 +108,7 @@ const Arusha_Attractions = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/home/home_card_image_01.avif" alt="" />
-                        </div>
-                        <div className="info">
-                            <h2>Lake Duluti</h2>
-                            <p>
-                                <i class="fa-solid fa-bookmark"></i>
-                                A serene crater lake near Tengeru, surrounded by Duluti Forest Reserve, ideal for canoeing, birdwatching (kingfishers, herons), and nature walks, offering a peaceful retreat from Arusha’s bustle. 
-                            </p>
-                            <p>
-                                <i class="fa-solid fa-location-dot"></i>
-                                Tengeru, Arusha Region, Tanzania
-                            </p>
-                            <p>
-                                <i class="fa-solid fa-car"></i>
-                                20-minute drive (14 km) via A23. Taxi or dala dala takes 25-35 minutes. Avoid 7-9 AM and 4-6 PM for smoother travel. Tours available.
-                            </p>
-                        </div>
-                    </article>
-                    <article className="card">
-                        <div className="image">
-                            <img src="/img/home/home_card_image_01.avif" alt="" />
+                            <img src="/img/arusha/arusha_attractions_06.avif" alt="" />
                         </div>
                         <div className="info">
                             <h2>Arusha Central Market (Soko Kuu)</h2>
