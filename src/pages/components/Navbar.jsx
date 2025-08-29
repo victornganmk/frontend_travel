@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import { Link } from 'react-router-dom'
+import logo from "../../img/logo/logo.png"
 
 const Navbar = () => {
     const [isToggle, setToggle] = useState(false);
@@ -19,7 +20,7 @@ const Navbar = () => {
         <nav>
             <ul>
                 <div className="logo_container">
-                    <Link to="/"><img src="/img/logo/logo.png"></img></Link>
+                    <Link to="/"><img src={ logo }></img></Link>
                 </div>
                 <li className='menu_main'><Link to="/">home</Link></li>
                 <li className='menu_main'>

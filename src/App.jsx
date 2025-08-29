@@ -1,5 +1,5 @@
-import react, { useEffect } from 'react'
-import { BrowserRouter, Router, Routes, Route, Link, useLocation } from 'react-router-dom';
+
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import ScrollToTop from './helpers/ScrollToTop';
 
 import Navbar from './pages/components/Navbar';
@@ -30,7 +30,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <Router basename={"/frontend_travel"}>
         <ScrollToTop />
         <Navbar />
         <Routes>
@@ -57,7 +57,7 @@ function App() {
           <Route path='/arusha_transportation' element={<Arusha_Transportation />}></Route>
         </Routes>
         <Footer />
-      </BrowserRouter>
+      </Router>
     </>
   )
 }
