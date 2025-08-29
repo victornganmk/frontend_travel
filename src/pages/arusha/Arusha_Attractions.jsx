@@ -1,10 +1,10 @@
 import React from 'react'
-import { arusha_attractions_01 } from "/img/arusha/arusha_attractions_01.avif"
-import { arusha_attractions_02 } from "/img/arusha/arusha_attractions_02.avif"
-import { arusha_attractions_03 } from "/img/arusha/arusha_attractions_03.avif"
-import { arusha_attractions_04 } from "/img/arusha/arusha_attractions_04.avif"
-import { arusha_attractions_05 } from "/img/arusha/arusha_attractions_05.avif"
-import { arusha_attractions_06 } from "/img/arusha/arusha_attractions_06.avif"
+import arusha_attractions_01 from "../../img/arusha/arusha_attractions_01.avif"
+import arusha_attractions_02 from "../../img/arusha/arusha_attractions_02.avif"
+import arusha_attractions_03 from "../../img/arusha/arusha_attractions_03.avif"
+import arusha_attractions_04 from "../../img/arusha/arusha_attractions_04.avif"
+import arusha_attractions_05 from "../../img/arusha/arusha_attractions_05.avif"
+import arusha_attractions_06 from "../../img/arusha/arusha_attractions_06.avif"
 
 const Arusha_Attractions = () => {
     return (

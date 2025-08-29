@@ -1,16 +1,16 @@
 import React from 'react'
-import { arusha_food_01 } from "/img/arusha/arusha_food_01.avif"
-import { arusha_food_02 } from "/img/arusha/arusha_food_02.avif"
-import { arusha_food_03 } from "/img/arusha/arusha_food_03.avif"
-import { arusha_food_04 } from "/img/arusha/arusha_food_04.avif"
-import { arusha_food_05 } from "/img/arusha/arusha_food_05.avif"
-import { arusha_food_06 } from "/img/arusha/arusha_food_06.avif"
-import { arusha_food_07 } from "/img/arusha/arusha_food_07.avif"
-import { arusha_food_08 } from "/img/arusha/arusha_food_08.avif"
-import { arusha_food_09 } from "/img/arusha/arusha_food_09.avif"
-import { arusha_food_10 } from "/img/arusha/arusha_food_10.avif"
-import { arusha_food_11 } from "/img/arusha/arusha_food_11.avif"
-import { arusha_food_12 } from "/img/arusha/arusha_food_12.avif"
+import arusha_food_01 from "../../img/arusha/arusha_food_01.avif"
+import arusha_food_02 from "../../img/arusha/arusha_food_02.avif"
+import arusha_food_03 from "../../img/arusha/arusha_food_03.avif"
+import arusha_food_04 from "../../img/arusha/arusha_food_04.avif"
+import arusha_food_05 from "../../img/arusha/arusha_food_05.avif"
+import arusha_food_06 from "../../img/arusha/arusha_food_06.avif"
+import arusha_food_07 from "../../img/arusha/arusha_food_07.avif"
+import arusha_food_08 from "../../img/arusha/arusha_food_08.avif"
+import arusha_food_09 from "../../img/arusha/arusha_food_09.avif"
+import arusha_food_10 from "../../img/arusha/arusha_food_10.avif"
+import arusha_food_11 from "../../img/arusha/arusha_food_11.avif"
+import arusha_food_12 from "../../img/arusha/arusha_food_12.avif"
 
 const Arusha_Food = () => {
     return (

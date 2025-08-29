@@ -1,7 +1,7 @@
 import React from 'react'
-import { prague_about_01 } from "/img/prague/prague_about_01.avif"
-import { prague_about_02 } from "/img/prague/prague_about_02.avif"
-import { prague_about_03 } from "/img/prague/prague_about_03.avif"
+import prague_about_01 from "../../img/prague/prague_about_01.avif"
+import prague_about_02 from "../../img/prague/prague_about_02.avif"
+import prague_about_03 from "../../img/prague/prague_about_03.avif"
 
 const Prague_About = () => {
     return (

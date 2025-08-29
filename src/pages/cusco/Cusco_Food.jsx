@@ -1,16 +1,16 @@
 import React from 'react'
-import { cusco_food_01 } from "/img/cusco/cusco_food_01.avif"
-import { cusco_food_02 } from "/img/cusco/cusco_food_02.avif"
-import { cusco_food_03 } from "/img/cusco/cusco_food_03.avif"
-import { cusco_food_04 } from "/img/cusco/cusco_food_04.avif"
-import { cusco_food_05 } from "/img/cusco/cusco_food_05.avif"
-import { cusco_food_06 } from "/img/cusco/cusco_food_06.avif"
-import { cusco_food_07 } from "/img/cusco/cusco_food_07.avif"
-import { cusco_food_08 } from "/img/cusco/cusco_food_08.avif"
-import { cusco_food_09 } from "/img/cusco/cusco_food_09.avif"
-import { cusco_food_10 } from "/img/cusco/cusco_food_10.avif"
-import { cusco_food_11 } from "/img/cusco/cusco_food_11.avif"
-import { cusco_food_12 } from "/img/cusco/cusco_food_12.avif"
+import cusco_food_01 from "../../img/cusco/cusco_food_01.avif"
+import cusco_food_02 from "../../img/cusco/cusco_food_02.avif"
+import cusco_food_03 from "../../img/cusco/cusco_food_03.avif"
+import cusco_food_04 from "../../img/cusco/cusco_food_04.avif"
+import cusco_food_05 from "../../img/cusco/cusco_food_05.avif"
+import cusco_food_06 from "../../img/cusco/cusco_food_06.avif"
+import cusco_food_07 from "../../img/cusco/cusco_food_07.avif"
+import cusco_food_08 from "../../img/cusco/cusco_food_08.avif"
+import cusco_food_09 from "../../img/cusco/cusco_food_09.avif"
+import cusco_food_10 from "../../img/cusco/cusco_food_10.avif"
+import cusco_food_11 from "../../img/cusco/cusco_food_11.avif"
+import cusco_food_12 from "../../img/cusco/cusco_food_12.avif"
 
 const Cusco_Food = () => {
     return (

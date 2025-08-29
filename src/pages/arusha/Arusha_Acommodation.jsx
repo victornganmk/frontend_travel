@@ -1,8 +1,8 @@
 import React from 'react'
-import { arusha_accommodation_01 } from "/img/arusha/arusha_accommodation_01.avif"
-import { arusha_accommodation_02 } from "/img/arusha/arusha_accommodation_02.avif"
-import { arusha_accommodation_03 } from "/img/arusha/arusha_accommodation_03.avif"
-import { arusha_accommodation_04 } from "/img/arusha/arusha_accommodation_04.avif"
+import arusha_accommodation_01 from "../../img/arusha/arusha_accommodation_01.avif"
+import arusha_accommodation_02 from "../../img/arusha/arusha_accommodation_02.avif"
+import arusha_accommodation_03 from "../../img/arusha/arusha_accommodation_03.avif"
+import arusha_accommodation_04 from "../../img/arusha/arusha_accommodation_04.avif"
 
 const Arusha_Accommodation = () => {
     return (

@@ -1,8 +1,8 @@
 import React from 'react'
-import { cusco_accommodation_01 } from "/img/cusco/cusco_accommodation_01.avif"
-import { cusco_accommodation_02 } from "/img/cusco/cusco_accommodation_02.avif"
-import { cusco_accommodation_03 } from "/img/cusco/cusco_accommodation_03.avif"
-import { cusco_accommodation_04 } from "/img/cusco/cusco_accommodation_04.avif"
+import cusco_accommodation_01 from "../../img/cusco/cusco_accommodation_01.avif"
+import cusco_accommodation_02 from "../../img/cusco/cusco_accommodation_02.avif"
+import cusco_accommodation_03 from "../../img/cusco/cusco_accommodation_03.avif"
+import cusco_accommodation_04 from "../../img/cusco/cusco_accommodation_04.avif"
 
 const Cusco_Accommodation = () => {
     return (

@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { home_card_image_01} from "/img/home/home_card_image_01.avif"
-import { home_card_image_02 } from "/img/home/home_card_image_02.avif"
-import { home_card_image_03} from "/img/home/home_card_image_03.avif"
-import { home_card_image_04 } from "/img/home/home_card_image_04.avif"
+import home_card_image_01 from "../../img/home/home_card_image_01.avif"
+import home_card_image_02 from "../../img/home/home_card_image_02.avif"
+import home_card_image_03 from "../../img/home/home_card_image_03.avif"
+import home_card_image_04 from "../../img/home/home_card_image_04.avif"
 
 const Home = () => {
     return (

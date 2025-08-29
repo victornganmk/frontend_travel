@@ -1,10 +1,10 @@
 import React from 'react'
-import { wellington_attractions_01 } from "/img/wellington/wellington_attractions_01.avif"
-import { wellington_attractions_02 } from "/img/wellington/wellington_attractions_02.avif"
-import { wellington_attractions_03 } from "/img/wellington/wellington_attractions_03.avif"
-import { wellington_attractions_04 } from "/img/wellington/wellington_attractions_04.avif"
-import { wellington_attractions_05 } from "/img/wellington/wellington_attractions_05.avif"
-import { wellington_attractions_06 } from "/img/wellington/wellington_attractions_06.avif"
+import wellington_attractions_01 from "../../img/wellington/wellington_attractions_01.avif"
+import wellington_attractions_02 from "../../img/wellington/wellington_attractions_02.avif"
+import wellington_attractions_03 from "../../img/wellington/wellington_attractions_03.avif"
+import wellington_attractions_04 from "../../img/wellington/wellington_attractions_04.avif"
+import wellington_attractions_05 from "../../img/wellington/wellington_attractions_05.avif"
+import wellington_attractions_06 from "../../img/wellington/wellington_attractions_06.avif"
 
 
 const Wellington_Attractions = () => {

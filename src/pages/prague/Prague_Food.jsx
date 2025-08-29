@@ -1,16 +1,16 @@
 import React from 'react'
-import { prague_food_01 } from "/img/prague/prague_food_01.avif"
-import { prague_food_02 } from "/img/prague/prague_food_02.avif"
-import { prague_food_03 } from "/img/prague/prague_food_03.avif"
-import { prague_food_04 } from "/img/prague/prague_food_04.avif"
-import { prague_food_05 } from "/img/prague/prague_food_05.avif"
-import { prague_food_06 } from "/img/prague/prague_food_06.avif"
-import { prague_food_07 } from "/img/prague/prague_food_07.avif"
-import { prague_food_08 } from "/img/prague/prague_food_08.avif"
-import { prague_food_09 } from "/img/prague/prague_food_09.avif"
-import { prague_food_10 } from "/img/prague/prague_food_10.avif"
-import { prague_food_11 } from "/img/prague/prague_food_11.avif"
-import { prague_food_12 } from "/img/prague/prague_food_12.avif"
+import prague_food_01 from "../../img/prague/prague_food_01.avif"
+import prague_food_02 from "../../img/prague/prague_food_02.avif"
+import prague_food_03 from "../../img/prague/prague_food_03.avif"
+import prague_food_04 from "../../img/prague/prague_food_04.avif"
+import prague_food_05 from "../../img/prague/prague_food_05.avif"
+import prague_food_06 from "../../img/prague/prague_food_06.avif"
+import prague_food_07 from "../../img/prague/prague_food_07.avif"
+import prague_food_08 from "../../img/prague/prague_food_08.avif"
+import prague_food_09 from "../../img/prague/prague_food_09.avif"
+import prague_food_10 from "../../img/prague/prague_food_10.avif"
+import prague_food_11 from "../../img/prague/prague_food_11.avif"
+import prague_food_12 from "../../img/prague/prague_food_12.avif"
 
 
 const Prague_Food = () => {

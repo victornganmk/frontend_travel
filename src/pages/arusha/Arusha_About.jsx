@@ -1,7 +1,7 @@
 import React from 'react'
-import { arusha_about_01 } from "/img/arusha/arusha_about_01.avif"
-import { arusha_about_02 } from "/img/arusha/arusha_about_02.avif"
-import { arusha_about_03 } from "/img/arusha/arusha_about_03.avif"
+import arusha_about_01 from "../../img/arusha/arusha_about_01.avif"
+import arusha_about_02 from "../../img/arusha/arusha_about_02.avif"
+import arusha_about_03 from "../../img/arusha/arusha_about_03.avif"
 
 const Arusha_About = () => {
     return (

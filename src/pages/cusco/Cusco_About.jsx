@@ -1,7 +1,7 @@
 import React from 'react'
-import { cusco_about_01 } from "/img/cusco/cusco_about_01.avif"
-import { cusco_about_02 } from "/img/cusco/cusco_about_02.avif"
-import { cusco_about_03 } from "/img/cusco/cusco_about_03.avif"
+import cusco_about_01 from "../../img/cusco/cusco_about_01.avif"
+import cusco_about_02 from "../../img/cusco/cusco_about_02.avif"
+import cusco_about_03 from "../../img/cusco/cusco_about_03.avif"
 
 const Cusco_About = () => {
     return (

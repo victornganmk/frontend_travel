@@ -1,7 +1,7 @@
 import React from 'react'
-import {wellington_about_01} from "/img/wellington/wellington_about_01.avif"
-import {wellington_about_02} from "/img/wellington/wellington_about_02.avif"
-import {wellington_about_03} from "/img/wellington/wellington_about_03.avif"
+import wellington_about_01 from "../../img/wellington/wellington_about_01.avif"
+import wellington_about_02 from "../../img/wellington/wellington_about_02.avif"
+import wellington_about_03 from "../../img/wellington/wellington_about_03.avif"
 
 
 const Wellington_About = () => {

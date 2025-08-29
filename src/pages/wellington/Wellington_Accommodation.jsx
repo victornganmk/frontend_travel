@@ -1,8 +1,8 @@
 import React from 'react'
-import { wellington_accommodation_01 } from "/img/wellington/wellington_accommodation_01.avif"
-import { wellington_accommodation_02 } from "/img/wellington/wellington_accommodation_02.avif"
-import { wellington_accommodation_03 } from "/img/wellington/wellington_accommodation_03.avif"
-import { wellington_accommodation_04 } from "/img/wellington/wellington_accommodation_04.avif"
+import wellington_accommodation_01 from "../../img/wellington/wellington_accommodation_01.avif"
+import wellington_accommodation_02 from "../../img/wellington/wellington_accommodation_02.avif"
+import wellington_accommodation_03 from "../../img/wellington/wellington_accommodation_03.avif"
+import wellington_accommodation_04 from "../../img/wellington/wellington_accommodation_04.avif"
 
 const Wellington_Accommodation = () => {
     return (

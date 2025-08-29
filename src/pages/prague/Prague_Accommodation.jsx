@@ -1,8 +1,8 @@
 import React from 'react'
-import { prague_accommodation_01 } from "/img/prague/prague_accommodation_01.avif"
-import { prague_accommodation_02 } from "/img/prague/prague_accommodation_02.avif"
-import { prague_accommodation_03 } from "/img/prague/prague_accommodation_03.avif"
-import { prague_accommodation_04 } from "/img/prague/prague_accommodation_04.avif"
+import prague_accommodation_01 from "../../img/prague/prague_accommodation_01.avif"
+import prague_accommodation_02 from "../../img/prague/prague_accommodation_02.avif"
+import prague_accommodation_03 from "../../img/prague/prague_accommodation_03.avif"
+import prague_accommodation_04 from "../../img/prague/prague_accommodation_04.avif"
 
 const Prague_Accommodation = () => {
     return (

@@ -1,16 +1,16 @@
 import React from 'react'
-import { wellington_food_01 } from "/img/wellington/wellington_food_01.avif"
-import { wellington_food_02 } from "/img/wellington/wellington_food_02.avif"
-import { wellington_food_03 } from "/img/wellington/wellington_food_03.avif"
-import { wellington_food_04 } from "/img/wellington/wellington_food_04.avif"
-import { wellington_food_05 } from "/img/wellington/wellington_food_05.avif"
-import { wellington_food_06 } from "/img/wellington/wellington_food_06.avif"
-import { wellington_food_07 } from "/img/wellington/wellington_food_07.avif"
-import { wellington_food_08 } from "/img/wellington/wellington_food_08.avif"
-import { wellington_food_09 } from "/img/wellington/wellington_food_09.avif"
-import { wellington_food_10 } from "/img/wellington/wellington_food_10.avif"
-import { wellington_food_11 } from "/img/wellington/wellington_food_11.avif"
-import { wellington_food_12 } from "/img/wellington/wellington_food_12.avif"
+import wellington_food_01 from "../../img/wellington/wellington_food_01.avif"
+import wellington_food_02 from "../../img/wellington/wellington_food_02.avif"
+import wellington_food_03 from "../../img/wellington/wellington_food_03.avif"
+import wellington_food_04 from "../../img/wellington/wellington_food_04.avif"
+import wellington_food_05 from "../../img/wellington/wellington_food_05.avif"
+import wellington_food_06 from "../../img/wellington/wellington_food_06.avif"
+import wellington_food_07 from "../../img/wellington/wellington_food_07.avif"
+import wellington_food_08 from "../../img/wellington/wellington_food_08.avif"
+import wellington_food_09 from "../../img/wellington/wellington_food_09.avif"
+import wellington_food_10 from "../../img/wellington/wellington_food_10.avif"
+import wellington_food_11 from "../../img/wellington/wellington_food_11.avif"
+import wellington_food_12 from "../../img/wellington/wellington_food_12.avif"
 
 
 const Wellington_Food = () => {

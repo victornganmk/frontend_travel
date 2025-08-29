@@ -1,10 +1,10 @@
 import React from 'react'
-import { cusco_attractions_01 } from "/img/cusco/cusco_attractions_01.avif"
-import { cusco_attractions_02 } from "/img/cusco/cusco_attractions_02.avif"
-import { cusco_attractions_03 } from "/img/cusco/cusco_attractions_03.avif"
-import { cusco_attractions_04 } from "/img/cusco/cusco_attractions_04.avif"
-import { cusco_attractions_05 } from "/img/cusco/cusco_attractions_05.avif"
-import { cusco_attractions_06 } from "/img/cusco/cusco_attractions_06.avif"
+import cusco_attractions_01 from "../../img/cusco/cusco_attractions_01.avif"
+import cusco_attractions_02 from "../../img/cusco/cusco_attractions_02.avif"
+import cusco_attractions_03 from "../../img/cusco/cusco_attractions_03.avif"
+import cusco_attractions_04 from "../../img/cusco/cusco_attractions_04.avif"
+import cusco_attractions_05 from "../../img/cusco/cusco_attractions_05.avif"
+import cusco_attractions_06 from "../../img/cusco/cusco_attractions_06.avif"
 
 const Cusco_Attractions = () => {
     return (

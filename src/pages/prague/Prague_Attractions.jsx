@@ -1,10 +1,10 @@
 import React from 'react'
-import { prague_attractions_01 } from "/img/prague/prague_attractions_01.avif"
-import { prague_attractions_02 } from "/img/prague/prague_attractions_02.avif"
-import { prague_attractions_03 } from "/img/prague/prague_attractions_03.avif"
-import { prague_attractions_04 } from "/img/prague/prague_attractions_04.avif"
-import { prague_attractions_05 } from "/img/prague/prague_attractions_05.avif"
-import { prague_attractions_06 } from "/img/prague/prague_attractions_06.avif"
+import prague_attractions_01 from "../../img/prague/prague_attractions_01.avif"
+import prague_attractions_02 from "../../img/prague/prague_attractions_02.avif"
+import prague_attractions_03 from "../../img/prague/prague_attractions_03.avif"
+import prague_attractions_04 from "../../img/prague/prague_attractions_04.avif"
+import prague_attractions_05 from "../../img/prague/prague_attractions_05.avif"
+import prague_attractions_06 from "../../img/prague/prague_attractions_06.avif"
 
 const Prague_Attractions = () => {
     return (
