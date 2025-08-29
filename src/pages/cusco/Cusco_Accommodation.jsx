@@ -1,4 +1,8 @@
 import React from 'react'
+import { cusco_accommodation_01 } from "/img/cusco/cusco_accommodation_01.avif"
+import { cusco_accommodation_02 } from "/img/cusco/cusco_accommodation_02.avif"
+import { cusco_accommodation_03 } from "/img/cusco/cusco_accommodation_03.avif"
+import { cusco_accommodation_04 } from "/img/cusco/cusco_accommodation_04.avif"
 
 const Cusco_Accommodation = () => {
     return (
@@ -7,7 +11,7 @@ const Cusco_Accommodation = () => {
             <section className="card_container">
                 <article className="card">
                     <div className="image">
-                            <img src="/img/cusco/cusco_accommodation_01.avif" alt="" />
+                            <img src={ cusco_accommodation_01 } alt="" />
                     </div>
                     <div className="info">
                             <h2>Inkaterra La Casona Relais & Châteaux</h2>
@@ -41,7 +45,7 @@ const Cusco_Accommodation = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                            <img src="/img/cusco/cusco_accommodation_02.avif" alt="" />
+                            <img src={ cusco_accommodation_02 } alt="" />
                     </div>
                     <div className="info">
                             <h2>Sonesta Hotel Cusco</h2>
@@ -75,7 +79,7 @@ const Cusco_Accommodation = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                            <img src="/img/cusco/cusco_accommodation_03.avif" alt="" />
+                            <img src={ cusco_accommodation_03 } alt="" />
                     </div>
                     <div className="info">
                             <h2>Casa Andina Premium Cusco</h2>
@@ -109,7 +113,7 @@ const Cusco_Accommodation = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                            <img src="/img/cusco/cusco_accommodation_04.avif" alt="" />
+                            <img src={ cusco_accommodation_04 } alt="" />
                     </div>
                     <div className="info">
                             <h2>La Posada del Viajero</h2>

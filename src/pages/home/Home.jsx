@@ -1,5 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { home_card_image_01} from "/img/home/home_card_image_01.avif"
+import { home_card_image_02 } from "/img/home/home_card_image_02.avif"
+import { home_card_image_03} from "/img/home/home_card_image_03.avif"
+import { home_card_image_04 } from "/img/home/home_card_image_04.avif"
 
 const Home = () => {
     return (
@@ -22,28 +26,28 @@ const Home = () => {
                         <Link className="card" to="/wellington_about">
                             <h3>Wellington/ New Zealand</h3>
                             <div className="card-image">
-                                <img src="/img/home/home_card_image_01.avif" alt="" />
+                                <img src={ home_card_image_01} alt="" />
                                 <p>Feb</p>
                             </div>
                         </Link>
                         <Link className="card" to="/prague_about">
                             <h3>Prague/ Czech Republic</h3>
                             <div className="card-image">
-                                <img src="/img/home/home_card_image_02.avif" alt="" />
+                                <img src={ home_card_image_02} alt="" />
                                 <p>Apr</p>
                             </div>
                         </Link>
                         <Link className="card" to="/cusco_about">
                             <h3>Cusco/ Peru</h3>
                             <div className="card-image">
-                                <img src="/img/home/home_card_image_03.avif" alt="" />
+                                <img src={ home_card_image_03} alt="" />
                                 <p>Jun</p>
                             </div>
                         </Link>
                         <Link className="card" to="/arusha_about">
                             <h3>Arusha/ Tanzania</h3>
                             <div className="card-image">
-                                <img src="/img/home/home_card_image_04.avif" alt="" />
+                                <img src={ home_card_image_04} alt="" />
                                 <p>Aug</p>
                             </div>
                         </Link>

@@ -1,4 +1,11 @@
 import React from 'react'
+import { wellington_attractions_01 } from "/img/wellington/wellington_attractions_01.avif"
+import { wellington_attractions_02 } from "/img/wellington/wellington_attractions_02.avif"
+import { wellington_attractions_03 } from "/img/wellington/wellington_attractions_03.avif"
+import { wellington_attractions_04 } from "/img/wellington/wellington_attractions_04.avif"
+import { wellington_attractions_05 } from "/img/wellington/wellington_attractions_05.avif"
+import { wellington_attractions_06 } from "/img/wellington/wellington_attractions_06.avif"
+
 
 const Wellington_Attractions = () => {
     return (
@@ -8,7 +15,7 @@ const Wellington_Attractions = () => {
                 <section className="card_container">
                     <article className="card">
                         <div className="image">
-                            <img src="/img/wellington/wellington_attractions_01.avif" alt="" />
+                            <img src={ wellington_attractions_01 } alt="" />
                         </div>
                         <div className="info">
                             <h2>Museum of New Zealand Te Papa Tongarewa</h2>
@@ -28,7 +35,7 @@ const Wellington_Attractions = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/wellington/wellington_attractions_02.avif" alt="" />
+                            <img src={ wellington_attractions_02 } alt="" />
                         </div>
                         <div className="info">
                             <h2>Zealandia Te Māra a Tāne</h2>
@@ -48,7 +55,7 @@ const Wellington_Attractions = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/wellington/wellington_attractions_03.avif" alt="" />
+                            <img src={ wellington_attractions_03 } alt="" />
                         </div>
                         <div className="info">
                             <h2>Wellington Cable Car</h2>
@@ -68,7 +75,7 @@ const Wellington_Attractions = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/wellington/wellington_attractions_04.avif" alt="" />
+                            <img src={ wellington_attractions_04 } alt="" />
                         </div>
                         <div className="info">
                             <h2>Mount Victoria Lookout</h2>
@@ -88,7 +95,7 @@ const Wellington_Attractions = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/wellington/wellington_attractions_05.avif" alt="" />
+                            <img src={ wellington_attractions_05 } alt="" />
                         </div>
                         <div className="info">
                             <h2>Wētā Cave (Wētā Workshop)</h2>
@@ -108,7 +115,7 @@ const Wellington_Attractions = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/wellington/wellington_attractions_06.avif" alt="" />
+                            <img src={ wellington_attractions_06 } alt="" />
                         </div>
                         <div className="info">
                             <h2>Wellington Botanic Garden</h2>

@@ -1,4 +1,8 @@
 import React from 'react'
+import { arusha_accommodation_01 } from "/img/arusha/arusha_accommodation_01.avif"
+import { arusha_accommodation_02 } from "/img/arusha/arusha_accommodation_02.avif"
+import { arusha_accommodation_03 } from "/img/arusha/arusha_accommodation_03.avif"
+import { arusha_accommodation_04 } from "/img/arusha/arusha_accommodation_04.avif"
 
 const Arusha_Accommodation = () => {
     return (
@@ -7,7 +11,7 @@ const Arusha_Accommodation = () => {
             <section className="card_container">
                 <article className="card">
                     <div className="image">
-                            <img src="/img/arusha/arusha_accommodation_01.avif" alt="" />
+                            <img src={ arusha_accommodation_01 } alt="" />
                     </div>
                     <div className="info">
                             <h2>Gran Meliá Arusha</h2>
@@ -41,7 +45,7 @@ const Arusha_Accommodation = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                            <img src="/img/arusha/arusha_accommodation_02.avif" alt="" />
+                            <img src={ arusha_accommodation_02 } alt="" />
                     </div>
                     <div className="info">
                             <h2>Four Points by Sheraton Arusha</h2>
@@ -75,7 +79,7 @@ const Arusha_Accommodation = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                            <img src="/img/arusha/arusha_accommodation_03.avif" alt="" />
+                            <img src={ arusha_accommodation_03 } alt="" />
                     </div>
                     <div className="info">
                             <h2>Arusha Coffee Lodge</h2>
@@ -107,7 +111,7 @@ const Arusha_Accommodation = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                            <img src="/img/arusha/arusha_accommodation_04.avif" alt="" />
+                            <img src={ arusha_accommodation_04 } alt="" />
                     </div>
                     <div className="info">
                             <h2>Tulia Boutique Hotel & Spa</h2>

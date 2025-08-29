@@ -1,4 +1,7 @@
 import React from 'react'
+import { prague_about_01 } from "/img/prague/prague_about_01.avif"
+import { prague_about_02 } from "/img/prague/prague_about_02.avif"
+import { prague_about_03 } from "/img/prague/prague_about_03.avif"
 
 const Prague_About = () => {
     return (
@@ -25,7 +28,7 @@ const Prague_About = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/prague/prague_about_01.avif" alt="" />
+                            <img src={ prague_about_01 } alt="" />
                         </div>
                         <div className="info">
                             <h2>history</h2>
@@ -35,7 +38,7 @@ const Prague_About = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/prague/prague_about_02.avif" alt="" />
+                            <img src={ prague_about_02 } alt="" />
                         </div>
                         <div className="info">
                             <h2>culture</h2>
@@ -45,7 +48,7 @@ const Prague_About = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/prague/prague_about_03.avif" alt="" />
+                            <img src={ prague_about_03 } alt="" />
                         </div>
                         <div className="info">
                             <h2>geography</h2>

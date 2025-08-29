@@ -1,4 +1,8 @@
 import React from 'react'
+import {wellington_about_01} from "/img/wellington/wellington_about_01.avif"
+import {wellington_about_02} from "/img/wellington/wellington_about_02.avif"
+import {wellington_about_03} from "/img/wellington/wellington_about_03.avif"
+
 
 const Wellington_About = () => {
     return (
@@ -25,7 +29,7 @@ const Wellington_About = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/wellington/wellington_about_01.avif" alt="" />
+                            <img src={wellington_about_01} alt="" />
                         </div>
                         <div className="info">
                             <h2>history</h2>
@@ -35,7 +39,7 @@ const Wellington_About = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/wellington/wellington_about_02.avif" alt="" />
+                            <img src={wellington_about_02} alt="" />
                         </div>
                         <div className="info">
                             <h2>culture</h2>
@@ -46,7 +50,7 @@ const Wellington_About = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/wellington/wellington_about_03.avif" alt="" />
+                            <img src={wellington_about_03} alt="" />
                         </div>
                         <div className="info">
                             <h2>geography</h2>

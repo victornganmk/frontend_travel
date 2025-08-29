@@ -1,4 +1,10 @@
 import React from 'react'
+import { prague_attractions_01 } from "/img/prague/prague_attractions_01.avif"
+import { prague_attractions_02 } from "/img/prague/prague_attractions_02.avif"
+import { prague_attractions_03 } from "/img/prague/prague_attractions_03.avif"
+import { prague_attractions_04 } from "/img/prague/prague_attractions_04.avif"
+import { prague_attractions_05 } from "/img/prague/prague_attractions_05.avif"
+import { prague_attractions_06 } from "/img/prague/prague_attractions_06.avif"
 
 const Prague_Attractions = () => {
     return (
@@ -8,7 +14,7 @@ const Prague_Attractions = () => {
                 <section className="card_container">
                     <article className="card">
                         <div className="image">
-                            <img src="/img/prague/prague_attractions_01.avif" alt="" />
+                            <img src={ prague_attractions_01 } alt="" />
                         </div>
                         <div className="info">
                             <h2>Prague Castle</h2>
@@ -28,7 +34,7 @@ const Prague_Attractions = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/prague/prague_attractions_02.avif" alt="" />
+                            <img src={ prague_attractions_02 } alt="" />
                         </div>
                         <div className="info">
                             <h2>Charles Bridge</h2>
@@ -48,7 +54,7 @@ const Prague_Attractions = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/prague/prague_attractions_03.avif" alt="" />
+                            <img src={ prague_attractions_03 } alt="" />
                         </div>
                         <div className="info">
                             <h2>Old Town Square</h2>
@@ -68,7 +74,7 @@ const Prague_Attractions = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/prague/prague_attractions_04.avif" alt="" />
+                            <img src={ prague_attractions_04 } alt="" />
                         </div>
                         <div className="info">
                             <h2>Petřín Hill</h2>
@@ -88,7 +94,7 @@ const Prague_Attractions = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/prague/prague_attractions_05.avif" alt="" />
+                            <img src={ prague_attractions_05 } alt="" />
                         </div>
                         <div className="info">
                             <h2>Jewish Quarter (Josefov)</h2>
@@ -108,7 +114,7 @@ const Prague_Attractions = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/prague/prague_attractions_06.avif" alt="" />
+                            <img src={ prague_attractions_06 } alt="" />
                         </div>
                         <div className="info">
                             <h2>Vyšehrad Fortress</h2>

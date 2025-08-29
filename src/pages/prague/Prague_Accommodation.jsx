@@ -1,4 +1,8 @@
 import React from 'react'
+import { prague_accommodation_01 } from "/img/prague/prague_accommodation_01.avif"
+import { prague_accommodation_02 } from "/img/prague/prague_accommodation_02.avif"
+import { prague_accommodation_03 } from "/img/prague/prague_accommodation_03.avif"
+import { prague_accommodation_04 } from "/img/prague/prague_accommodation_04.avif"
 
 const Prague_Accommodation = () => {
     return (
@@ -7,7 +11,7 @@ const Prague_Accommodation = () => {
             <section className="card_container">
                 <article className="card">
                     <div className="image">
-                            <img src="/img/prague/prague_accommodation_01.avif" alt="" />
+                            <img src={ prague_accommodation_01 } alt="" />
                     </div>
                     <div className="info">
                             <h2>Four Seasons Hotel Prague</h2>
@@ -41,7 +45,7 @@ const Prague_Accommodation = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                            <img src="/img/prague/prague_accommodation_02.avif" alt="" />
+                            <img src={ prague_accommodation_02 } alt="" />
                     </div>
                     <div className="info">
                             <h2>Numa I Republika Rooms & Apartments</h2>
@@ -75,7 +79,7 @@ const Prague_Accommodation = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                            <img src="/img/prague/prague_accommodation_03.avif" alt="" />
+                            <img src={ prague_accommodation_03 } alt="" />
                     </div>
                     <div className="info">
                             <h2>Art Deco Imperial Hotel</h2>
@@ -109,7 +113,7 @@ const Prague_Accommodation = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                            <img src="/img/prague/prague_accommodation_04.avif" alt="" />
+                            <img src={ prague_accommodation_04 } alt="" />
                     </div>
                     <div className="info">
                             <h2>B&B Hotel Prague City</h2>

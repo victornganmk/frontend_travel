@@ -1,4 +1,8 @@
 import React from 'react'
+import { wellington_accommodation_01 } from "/img/wellington/wellington_accommodation_01.avif"
+import { wellington_accommodation_02 } from "/img/wellington/wellington_accommodation_02.avif"
+import { wellington_accommodation_03 } from "/img/wellington/wellington_accommodation_03.avif"
+import { wellington_accommodation_04 } from "/img/wellington/wellington_accommodation_04.avif"
 
 const Wellington_Accommodation = () => {
     return (
@@ -7,7 +11,7 @@ const Wellington_Accommodation = () => {
             <section className="card_container">
                 <article className="card">
                     <div className="image">
-                            <img src="/img/wellington/wellington_accommodation_01.avif" alt="" />
+                            <img src={ wellington_accommodation_01 } alt="" />
                     </div>
                     <div className="info">
                             <h2>InterContinental Wellington</h2>
@@ -41,7 +45,7 @@ const Wellington_Accommodation = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                            <img src="/img/wellington/wellington_accommodation_02.avif" alt="" />
+                            <img src={ wellington_accommodation_02 } alt="" />
                     </div>
                     <div className="info">
                             <h2>Oaks Wellington Hotel</h2>
@@ -75,7 +79,7 @@ const Wellington_Accommodation = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                            <img src="/img/wellington/wellington_accommodation_03.avif" alt="" />
+                            <img src={ wellington_accommodation_03 } alt="" />
                     </div>
                     <div className="info">
                             <h2>QT Wellington</h2>
@@ -109,7 +113,7 @@ const Wellington_Accommodation = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                            <img src="/img/wellington/wellington_accommodation_04.avif" alt="" />
+                            <img src={ wellington_accommodation_04 } alt="" />
                     </div>
                     <div className="info">
                             <h2>Willis Wellington Hotel</h2>

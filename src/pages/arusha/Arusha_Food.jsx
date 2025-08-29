@@ -1,4 +1,16 @@
 import React from 'react'
+import { arusha_food_01 } from "/img/arusha/arusha_food_01.avif"
+import { arusha_food_02 } from "/img/arusha/arusha_food_02.avif"
+import { arusha_food_03 } from "/img/arusha/arusha_food_03.avif"
+import { arusha_food_04 } from "/img/arusha/arusha_food_04.avif"
+import { arusha_food_05 } from "/img/arusha/arusha_food_05.avif"
+import { arusha_food_06 } from "/img/arusha/arusha_food_06.avif"
+import { arusha_food_07 } from "/img/arusha/arusha_food_07.avif"
+import { arusha_food_08 } from "/img/arusha/arusha_food_08.avif"
+import { arusha_food_09 } from "/img/arusha/arusha_food_09.avif"
+import { arusha_food_10 } from "/img/arusha/arusha_food_10.avif"
+import { arusha_food_11 } from "/img/arusha/arusha_food_11.avif"
+import { arusha_food_12 } from "/img/arusha/arusha_food_12.avif"
 
 const Arusha_Food = () => {
     return (
@@ -7,7 +19,7 @@ const Arusha_Food = () => {
             <section className="card_container">
                 <article className="card">
                     <div className="image">
-                        <img src="/img/arusha/arusha_food_01.avif" alt="" />
+                        <img src={ arusha_food_01 } alt="" />
                     </div>
                     <div className="info">
                         <h2>Nyama Choma</h2>
@@ -16,7 +28,7 @@ const Arusha_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/arusha/arusha_food_02.avif" alt="" />
+                        <img src={ arusha_food_02 } alt="" />
                     </div>
                     <div className="info">
                         <h2>Ugali</h2>
@@ -25,7 +37,7 @@ const Arusha_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/arusha/arusha_food_03.avif" alt="" />
+                        <img src={ arusha_food_03 } alt="" />
                     </div>
                     <div className="info">
                         <h2>Pilau</h2>
@@ -34,7 +46,7 @@ const Arusha_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/arusha/arusha_food_04.avif" alt="" />
+                        <img src={ arusha_food_04 } alt="" />
                     </div>
                     <div className="info">
                         <h2>Chipsi Mayai</h2>
@@ -43,7 +55,7 @@ const Arusha_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/arusha/arusha_food_05.avif" alt="" />
+                        <img src={ arusha_food_05 } alt="" />
                     </div>
                     <div className="info">
                         <h2>Mchicha</h2>
@@ -52,7 +64,7 @@ const Arusha_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/arusha/arusha_food_06.avif" alt="" />
+                        <img src={ arusha_food_06 } alt="" />
                     </div>
                     <div className="info">
                         <h2>Mbege</h2>
@@ -61,7 +73,7 @@ const Arusha_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/arusha/arusha_food_07.avif" alt="" />
+                        <img src={ arusha_food_07 } alt="" />
                     </div>
                     <div className="info">
                         <h2>Kachumbari</h2>
@@ -70,7 +82,7 @@ const Arusha_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/arusha/arusha_food_08.avif" alt="" />
+                        <img src={ arusha_food_08 } alt="" />
                     </div>
                     <div className="info">
                         <h2>Mishkaki</h2>
@@ -79,7 +91,7 @@ const Arusha_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/arusha/arusha_food_09.avif" alt="" />
+                        <img src={ arusha_food_09 } alt="" />
                     </div>
                     <div className="info">
                         <h2>Samosas</h2>
@@ -88,7 +100,7 @@ const Arusha_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/arusha/arusha_food_10.avif" alt="" />
+                        <img src={ arusha_food_10 } alt="" />
                     </div>
                     <div className="info">
                         <h2>Ndizi Nyama</h2>
@@ -97,7 +109,7 @@ const Arusha_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/arusha/arusha_food_11.avif" alt="" />
+                        <img src={ arusha_food_11 } alt="" />
                     </div>
                     <div className="info">
                         <h2>Supu ya Ndizi</h2>
@@ -106,7 +118,7 @@ const Arusha_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/arusha/arusha_food_12.avif" alt="" />
+                        <img src={ arusha_food_12 } alt="" />
                     </div>
                     <div className="info">
                         <h2>Chai Masala</h2>

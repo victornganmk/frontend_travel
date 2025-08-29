@@ -1,4 +1,10 @@
 import React from 'react'
+import { arusha_attractions_01 } from "/img/arusha/arusha_attractions_01.avif"
+import { arusha_attractions_02 } from "/img/arusha/arusha_attractions_02.avif"
+import { arusha_attractions_03 } from "/img/arusha/arusha_attractions_03.avif"
+import { arusha_attractions_04 } from "/img/arusha/arusha_attractions_04.avif"
+import { arusha_attractions_05 } from "/img/arusha/arusha_attractions_05.avif"
+import { arusha_attractions_06 } from "/img/arusha/arusha_attractions_06.avif"
 
 const Arusha_Attractions = () => {
     return (
@@ -8,7 +14,7 @@ const Arusha_Attractions = () => {
                 <section className="card_container">
                     <article className="card">
                         <div className="image">
-                            <img src="/img/arusha/arusha_attractions_01.avif" alt="" />
+                            <img src={ arusha_attractions_01 } alt="" />
                         </div>
                         <div className="info">
                             <h2>Mount Kilimanjaro</h2>
@@ -28,7 +34,7 @@ const Arusha_Attractions = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/arusha/arusha_attractions_02.avif" alt="" />
+                            <img src={ arusha_attractions_02 } alt="" />
                         </div>
                         <div className="info">
                             <h2>Arusha National Park</h2>
@@ -48,7 +54,7 @@ const Arusha_Attractions = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/arusha/arusha_attractions_03.avif" alt="" />
+                            <img src={ arusha_attractions_03 } alt="" />
                         </div>
                         <div className="info">
                             <h2>Cultural Heritage Centre</h2>
@@ -68,7 +74,7 @@ const Arusha_Attractions = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/arusha/arusha_attractions_04.avif" alt="" />
+                            <img src={ arusha_attractions_04 } alt="" />
                         </div>
                         <div className="info">
                             <h2>Meserani Snake Park</h2>
@@ -88,7 +94,7 @@ const Arusha_Attractions = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/arusha/arusha_attractions_05.avif" alt="" />
+                            <img src={ arusha_attractions_05 } alt="" />
                         </div>
                         <div className="info">
                             <h2>The Tanzanite Experience</h2>
@@ -108,7 +114,7 @@ const Arusha_Attractions = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/arusha/arusha_attractions_06.avif" alt="" />
+                            <img src={ arusha_attractions_06 } alt="" />
                         </div>
                         <div className="info">
                             <h2>Arusha Central Market (Soko Kuu)</h2>

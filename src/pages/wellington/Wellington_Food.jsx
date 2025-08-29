@@ -1,4 +1,17 @@
 import React from 'react'
+import { wellington_food_01 } from "/img/wellington/wellington_food_01.avif"
+import { wellington_food_02 } from "/img/wellington/wellington_food_02.avif"
+import { wellington_food_03 } from "/img/wellington/wellington_food_03.avif"
+import { wellington_food_04 } from "/img/wellington/wellington_food_04.avif"
+import { wellington_food_05 } from "/img/wellington/wellington_food_05.avif"
+import { wellington_food_06 } from "/img/wellington/wellington_food_06.avif"
+import { wellington_food_07 } from "/img/wellington/wellington_food_07.avif"
+import { wellington_food_08 } from "/img/wellington/wellington_food_08.avif"
+import { wellington_food_09 } from "/img/wellington/wellington_food_09.avif"
+import { wellington_food_10 } from "/img/wellington/wellington_food_10.avif"
+import { wellington_food_11 } from "/img/wellington/wellington_food_11.avif"
+import { wellington_food_12 } from "/img/wellington/wellington_food_12.avif"
+
 
 const Wellington_Food = () => {
     return (
@@ -7,7 +20,7 @@ const Wellington_Food = () => {
             <section className="card_container">
                 <article className="card">
                     <div className="image">
-                        <img src="/img/wellington/wellington_food_01.avif" alt="" />
+                        <img src={ wellington_food_01 } alt="" />
                     </div>
                     <div className="info">
                         <h2>Flat White</h2>
@@ -16,7 +29,7 @@ const Wellington_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/wellington/wellington_food_02.avif" alt="" />
+                        <img src={ wellington_food_02 } alt="" />
                     </div>
                     <div className="info">
                         <h2>Pavlova</h2>
@@ -25,7 +38,7 @@ const Wellington_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/wellington/wellington_food_03.avif" alt="" />
+                        <img src={ wellington_food_03 } alt="" />
                     </div>
                     <div className="info">
                         <h2>Lamb Rump</h2>
@@ -34,7 +47,7 @@ const Wellington_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/wellington/wellington_food_04.avif" alt="" />
+                        <img src={ wellington_food_04 } alt="" />
                     </div>
                     <div className="info">
                         <h2>Seafood Platter</h2>
@@ -43,7 +56,7 @@ const Wellington_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/wellington/wellington_food_05.avif" alt="" />
+                        <img src={ wellington_food_05 } alt="" />
                     </div>
                     <div className="info">
                         <h2>WCF Calzone</h2>
@@ -52,7 +65,7 @@ const Wellington_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/wellington/wellington_food_06.avif" alt="" />
+                        <img src={ wellington_food_06 } alt="" />
                     </div>
                     <div className="info">
                         <h2>Cheese Scones</h2>
@@ -61,7 +74,7 @@ const Wellington_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/wellington/wellington_food_07.avif" alt="" />
+                        <img src={ wellington_food_07 } alt="" />
                     </div>
                     <div className="info">
                         <h2>Mee Goreng</h2>
@@ -70,7 +83,7 @@ const Wellington_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/wellington/wellington_food_08.avif" alt="" />
+                        <img src={ wellington_food_08 } alt="" />
                     </div>
                     <div className="info">
                         <h2>Sourdough Crumpets</h2>
@@ -79,7 +92,7 @@ const Wellington_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/wellington/wellington_food_09.avif" alt="" />
+                        <img src={ wellington_food_09 } alt="" />
                     </div>
                     <div className="info">
                         <h2>Craft Beer</h2>
@@ -88,7 +101,7 @@ const Wellington_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/wellington/wellington_food_10.avif" alt="" />
+                        <img src={ wellington_food_10 } alt="" />
                     </div>
                     <div className="info">
                         <h2>Smoked Fish Croquettes</h2>
@@ -97,7 +110,7 @@ const Wellington_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/wellington/wellington_food_11.avif" alt="" />
+                        <img src={ wellington_food_11 } alt="" />
                     </div>
                     <div className="info">
                         <h2>Hāngi-inspired Dishes</h2>
@@ -106,7 +119,7 @@ const Wellington_Food = () => {
                 </article>
                 <article className="card">
                     <div className="image">
-                        <img src="/img/wellington/wellington_food_12.avif" alt="" />
+                        <img src={ wellington_food_12 } alt="" />
                     </div>
                     <div className="info">
                         <h2>Rewena Bread</h2>

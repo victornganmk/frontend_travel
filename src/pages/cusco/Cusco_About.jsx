@@ -1,4 +1,7 @@
 import React from 'react'
+import { cusco_about_01 } from "/img/cusco/cusco_about_01.avif"
+import { cusco_about_02 } from "/img/cusco/cusco_about_02.avif"
+import { cusco_about_03 } from "/img/cusco/cusco_about_03.avif"
 
 const Cusco_About = () => {
     return (
@@ -25,7 +28,7 @@ const Cusco_About = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/cusco/cusco_about_01.avif" alt="" />
+                            <img src={ cusco_about_01 } alt="" />
                         </div>
                         <div className="info">
                             <h2>history</h2>
@@ -35,7 +38,7 @@ const Cusco_About = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/cusco/cusco_about_02.avif" alt="" />
+                            <img src={ cusco_about_02 } alt="" />
                         </div>
                         <div className="info">
                             <h2>culture</h2>
@@ -45,7 +48,7 @@ const Cusco_About = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/cusco/cusco_about_03.avif" alt="" />
+                            <img src={ cusco_about_03 } alt="" />
                         </div>
                         <div className="info">
                             <h2>geography</h2>

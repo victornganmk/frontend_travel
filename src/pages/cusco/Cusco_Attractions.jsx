@@ -1,4 +1,10 @@
 import React from 'react'
+import { cusco_attractions_01 } from "/img/cusco/cusco_attractions_01.avif"
+import { cusco_attractions_02 } from "/img/cusco/cusco_attractions_02.avif"
+import { cusco_attractions_03 } from "/img/cusco/cusco_attractions_03.avif"
+import { cusco_attractions_04 } from "/img/cusco/cusco_attractions_04.avif"
+import { cusco_attractions_05 } from "/img/cusco/cusco_attractions_05.avif"
+import { cusco_attractions_06 } from "/img/cusco/cusco_attractions_06.avif"
 
 const Cusco_Attractions = () => {
     return (
@@ -8,7 +14,7 @@ const Cusco_Attractions = () => {
                 <section className="card_container">
                     <article className="card">
                         <div className="image">
-                            <img src="/img/cusco/cusco_attractions_01.avif" alt="" />
+                            <img src={ cusco_attractions_01 } alt="" />
                         </div>
                         <div className="info">
                             <h2>Machu Picchu</h2>
@@ -28,7 +34,7 @@ const Cusco_Attractions = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/cusco/cusco_attractions_02.avif" alt="" />
+                            <img src={ cusco_attractions_02 } alt="" />
                         </div>
                         <div className="info">
                             <h2>Vinicunca (Rainbow Mountain)</h2>
@@ -48,7 +54,7 @@ const Cusco_Attractions = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/cusco/cusco_attractions_03.avif" alt="" />
+                            <img src={ cusco_attractions_03 } alt="" />
                         </div>
                         <div className="info">
                             <h2>Sacsayhuamán</h2>
@@ -68,7 +74,7 @@ const Cusco_Attractions = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/cusco/cusco_attractions_04.avif" alt="" />
+                            <img src={ cusco_attractions_04 } alt="" />
                         </div>
                         <div className="info">
                             <h2>Qorikancha (Temple of the Sun)</h2>
@@ -88,7 +94,7 @@ const Cusco_Attractions = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/cusco/cusco_attractions_05.avif" alt="" />
+                            <img src={ cusco_attractions_05 } alt="" />
                         </div>
                         <div className="info">
                             <h2>Plaza de Armas</h2>
@@ -108,7 +114,7 @@ const Cusco_Attractions = () => {
                     </article>
                     <article className="card">
                         <div className="image">
-                            <img src="/img/cusco/cusco_attractions_06.avif" alt="" />
+                            <img src={ cusco_attractions_06 } alt="" />
                         </div>
                         <div className="info">
                             <h2>San Pedro Market</h2>
